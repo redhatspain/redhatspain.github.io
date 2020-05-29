@@ -504,6 +504,7 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 ## EKS
 - [Amazon EKS Price Reduction](https://aws.amazon.com/blogs/aws/eks-price-reduction/)
+* [cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟](https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/)
 
 ## Interview Questions
 - [intellipaat.com: Top Amazon AWS Interview Questions – Most Asked](https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/)
@@ -529,4 +530,8 @@ aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.Availa
 
 <center>
 <iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+</center>
+
+<center>
+[![aws responsability model](images/aws_shared_responsability_model.jpg)](https://aws.amazon.com/compliance/shared-responsibility-model/)
 </center>
