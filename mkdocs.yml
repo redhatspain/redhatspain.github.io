@@ -1,10 +1,10 @@
 site_name: Awesome Kubernetes
-site_url: https://github.com/inafev/redhatspain.github.io
+site_url: https://redhatspain.github.io
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: inafev
 docs_dir: docs/
-repo_name: inafev/redhatspain.github.io
-repo_url: https://github.com/inafev/redhatspain.github.io
+repo_name: redhatspain/redhatspain.github.io
+repo_url: https://github.com/redhatspain/redhatspain.github.io
 theme: 
   name: 'material' 
   prev_next_buttons_location: both
