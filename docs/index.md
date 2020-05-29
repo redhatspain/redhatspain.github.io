@@ -12,11 +12,12 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 <center>
 [New site under construction here!](https://www.redhatspain.com)
 
-|[![openshift videos](images/docker_kubernetes_openshift.png)](https://www.youtube.com/user/rhopenshift)|[![jenkins videos](images/jenkins-logo.png)](https://www.youtube.com/user/CloudBeesTV)|
-|:---:|:---:|
+[![openshift videos](images/docker_kubernetes_openshift.png)](https://www.youtube.com/user/rhopenshift) [![jenkins videos](images/jenkins-logo.png)](https://www.youtube.com/user/CloudBeesTV)
 
 </center>
 <div id="player"></div>
+
+---
 
 ## Table of Contents
 
