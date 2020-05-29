@@ -11,10 +11,15 @@ Microservices architectures rely on DevOps practices, automation, CI/CD (continu
 <!-- youtube player 
 <div id="player"></div>
 -->
+<!--
 <img alt="Container with cars" src="images/container_with_cars.png"> 
 <head>
 <meta property="og:image" content="https://awesome-kubernetes.readthedocs.io/images/container_with_cars.png">
 </head>
+-->
+<center>
+[![container with cars](images/container_with_cars.png)](https://www.cncf.io/certification/software-conformance/)
+</center>
 ---
 
 ## Table of Contents
