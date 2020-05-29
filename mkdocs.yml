@@ -2,7 +2,7 @@ site_name: Awesome Kubernetes
 site_url: https://redhatspain.github.io
 site_description: A curated list of awesome IT projects and resources. Inspired by the awesome list.
 site_author: inafev
-#docs_dir: docs/
+docs_dir: docs/
 repo_name: redhatspain/redhatspain.github.io
 repo_url: https://github.com/redhatspain/redhatspain.github.io
 theme: 
@@ -135,3 +135,5 @@ nav:
   - About: about.md
 copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://redhatspain.github.io/about/">about</a>.
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
+remote_branch: master
+remote_name: origin
