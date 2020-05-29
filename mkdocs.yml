@@ -6,7 +6,7 @@ site_author: inafev
 repo_name: redhatspain/redhatspain.github.io
 repo_url: https://github.com/redhatspain/redhatspain.github.io
 theme: 
-  name: 'material' 
+  name: material 
   prev_next_buttons_location: both
   navigation_depth: 4
   titles_only: False
