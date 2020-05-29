@@ -135,5 +135,5 @@ nav:
   - Other Awesome Lists: other-awesome-lists.md
   - About: about.md
 
-copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://docs.redhatspain.com/about/">about</a>.
+copyright: 2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (Unofficial linkedin group)</a>, <a href="https://redhatspain.github.io/about/">about</a>.
 google_analytics: ['UA-167788447-1', 'awesome kubernetes']
