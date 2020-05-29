@@ -2,7 +2,6 @@ name: Publish docs via GitHub Pages
 on:
   push:
     branches:
-      - master
       - develop
 
 jobs:
@@ -11,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@v1
+        uses: actions/checkout@v2
 
       - name: Deploy MkDocs
         uses: mhausenblas/mkdocs-deploy-gh-pages@1.12
