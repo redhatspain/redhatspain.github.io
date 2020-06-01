@@ -1,0 +1,3697 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+      
+      
+        <link rel="canonical" href="https://redhatspain.github.io/aws/">
+      
+      
+        <meta name="author" content="inafev">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.1.0">
+    
+    
+      
+        <title>AWS - Awesome Kubernetes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.89dc9fe3.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    
+      
+        
+<link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167788447-1","awesome kubernetes"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview")})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#amazon-web-services" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://redhatspain.github.io" title="Awesome Kubernetes" class="md-header-nav__button md-logo" aria-label="Awesome Kubernetes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Awesome Kubernetes
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              AWS
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/redhatspain/redhatspain.github.io/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    redhatspain/redhatspain.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://redhatspain.github.io" title="Awesome Kubernetes" class="md-nav__button md-logo" aria-label="Awesome Kubernetes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    Awesome Kubernetes
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/redhatspain/redhatspain.github.io/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    redhatspain/redhatspain.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Introduction
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Introduction
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introduction/" title="Openshift VS Kubernetes" class="md-nav__link">
+      Openshift VS Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../javaee-to-cloud-native/" title="From Java EE To Cloud Native" class="md-nav__link">
+      From Java EE To Cloud Native
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="Microservices FAQ & Kubernetes Native" class="md-nav__link">
+      Microservices FAQ & Kubernetes Native
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sre/" title="Site Reliability Engineering (SRE)" class="md-nav__link">
+      Site Reliability Engineering (SRE)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../serverless/" title="Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless" class="md-nav__link">
+      Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      DevOps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="DevOps" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        DevOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../devops/" title="DevOps" class="md-nav__link">
+      DevOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cheatsheets/" title="Cheat Sheets" class="md-nav__link">
+      Cheat Sheets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../gitops/" title="GitOps" class="md-nav__link">
+      GitOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../demos/" title="Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more" class="md-nav__link">
+      Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      NoOps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="NoOps" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        NoOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../noops/" title="NoOps" class="md-nav__link">
+      NoOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../serverless/" title="Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless" class="md-nav__link">
+      Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../finops/" title="FinOps - Cloud Financial Management" class="md-nav__link">
+      FinOps - Cloud Financial Management
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../testops/" title="TestOps and Continuous Testing" class="md-nav__link">
+      TestOps and Continuous Testing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Project Management Methodology
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Project Management Methodology" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Project Management Methodology
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../project-management-methodology/" title="Project Management Methodology" class="md-nav__link">
+      Project Management Methodology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../workfromhome/" title="Work From Home" class="md-nav__link">
+      Work From Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../appointment-scheduling/" title="Appointment Scheduling" class="md-nav__link">
+      Appointment Scheduling
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../docker/" title="Docker" class="md-nav__link">
+      Docker
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      Kubernetes
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Kubernetes" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Kubernetes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kubernetes/" title="Kubernetes" class="md-nav__link">
+      Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../matrix-table/" title="Kubernetes Matrix Table" class="md-nav__link">
+      Kubernetes Matrix Table
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kubernetes-alternatives/" title="Kubernetes alternatives" class="md-nav__link">
+      Kubernetes alternatives
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      OpenShift
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="OpenShift" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        OpenShift
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../openshift/" title="OpenShift docs" class="md-nav__link">
+      OpenShift docs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      Software Delivery Pipeline
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Software Delivery Pipeline" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Software Delivery Pipeline
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cicd/" title="CI/CD - Continuous Integration & Continuous Delivery" class="md-nav__link">
+      CI/CD - Continuous Integration & Continuous Delivery
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../git/" title="Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs" class="md-nav__link">
+      Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jenkins/" title="Jenkins & Cloudbees" class="md-nav__link">
+      Jenkins & Cloudbees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../openshift-pipelines/" title="OpenShift Pipelines with Jenkins, Tekton and more..." class="md-nav__link">
+      OpenShift Pipelines with Jenkins, Tekton and more...
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../performance-testing-with-jenkins-and-jmeter/" title="Performance testing with Jenkins and JMeter or Gatling" class="md-nav__link">
+      Performance testing with Jenkins and JMeter or Gatling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jenkins-alternatives/" title="Jenkins Alternatives for Continuous Integration" class="md-nav__link">
+      Jenkins Alternatives for Continuous Integration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13-7" type="checkbox" id="nav-13-7">
+    
+    <label class="md-nav__link" for="nav-13-7">
+      Toolchain
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Toolchain" data-md-level="2">
+      <label class="md-nav__title" for="nav-13-7">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Toolchain
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../container-managers/" title="Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo" class="md-nav__link">
+      Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../maven-gradle/" title="Maven & Gradle" class="md-nav__link">
+      Maven & Gradle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sonarqube/" title="SonarQube" class="md-nav__link">
+      SonarQube
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nexus-jfrog/" title="Nexus & JFrog Artifactory" class="md-nav__link">
+      Nexus & JFrog Artifactory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../web-servers/" title="Web Servers - Apache, HAProxy & Nginx" class="md-nav__link">
+      Web Servers - Apache, HAProxy & Nginx
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../payara/" title="Payara App Server" class="md-nav__link">
+      Payara App Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedded-servlet-containers/" title="Embedded Servlet Containers in SpringBoot" class="md-nav__link">
+      Embedded Servlet Containers in SpringBoot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../selenium-appium-zephyr/" title="Selenium, Appium & Zephyr Jira plugin" class="md-nav__link">
+      Selenium, Appium & Zephyr Jira plugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linux/" title="Linux & SSH" class="md-nav__link">
+      Linux & SSH
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yaml-processors/" title="YAML processors" class="md-nav__link">
+      YAML processors
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-14" type="checkbox" id="nav-14">
+    
+    <label class="md-nav__link" for="nav-14">
+      Java Memory Management
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Java Memory Management" data-md-level="1">
+      <label class="md-nav__title" for="nav-14">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Java Memory Management
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../java-and-java-performance-optimization/" title="Java Memory Management & Java Performance Optimization" class="md-nav__link">
+      Java Memory Management & Java Performance Optimization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jvm-parameters-matrix-table/" title="Java Parameters Matrix Table" class="md-nav__link">
+      Java Parameters Matrix Table
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../caching/" title="Caching Solutions" class="md-nav__link">
+      Caching Solutions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../monitoring/" title="Monitoring and Performance. Prometheus, Grafana, APMs and more" class="md-nav__link">
+      Monitoring and Performance. Prometheus, Grafana, APMs and more
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-17" type="checkbox" id="nav-17">
+    
+    <label class="md-nav__link" for="nav-17">
+      Configuration Management
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Configuration Management" data-md-level="1">
+      <label class="md-nav__title" for="nav-17">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Configuration Management
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ansible/" title="Ansible" class="md-nav__link">
+      Ansible
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liquibase/" title="Liquibase" class="md-nav__link">
+      Liquibase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../terraform/" title="Terraform & Packer" class="md-nav__link">
+      Terraform & Packer
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-18" type="checkbox" id="nav-18">
+    
+    <label class="md-nav__link" for="nav-18">
+      Databases on Kubernetes
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Databases on Kubernetes" data-md-level="1">
+      <label class="md-nav__title" for="nav-18">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Databases on Kubernetes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../databases/" title="Relational Databases and Database DevOps. CrunchyData Postgres Operator" class="md-nav__link">
+      Relational Databases and Database DevOps. CrunchyData Postgres Operator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nosql/" title="NoSQL Databases" class="md-nav__link">
+      NoSQL Databases
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../message-queue/" title="Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)" class="md-nav__link">
+      Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-20" type="checkbox" id="nav-20">
+    
+    <label class="md-nav__link" for="nav-20">
+      Service Mesh
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Service Mesh" data-md-level="1">
+      <label class="md-nav__title" for="nav-20">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Service Mesh
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../servicemesh/" title="Service Mesh" class="md-nav__link">
+      Service Mesh
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../consul/" title="Consul" class="md-nav__link">
+      Consul
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../envoyproxy/" title="Envoy & xDS protocol" class="md-nav__link">
+      Envoy & xDS protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istio/" title="Istio" class="md-nav__link">
+      Istio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linkerd/" title="Linkerd" class="md-nav__link">
+      Linkerd
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../maesh/" title="Maesh" class="md-nav__link">
+      Maesh
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trafficdirector/" title="Traffic Director" class="md-nav__link">
+      Traffic Director
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-21" type="checkbox" id="nav-21">
+    
+    <label class="md-nav__link" for="nav-21">
+      Security and DevSecOps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Security and DevSecOps" data-md-level="1">
+      <label class="md-nav__title" for="nav-21">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Security and DevSecOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../devsecops/" title="DevSecOps. Container Security" class="md-nav__link">
+      DevSecOps. Container Security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../securityascode/" title="Security Policy as Code" class="md-nav__link">
+      Security Policy as Code
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../storage/" title="Cloud Native Storage" class="md-nav__link">
+      Cloud Native Storage
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-23" type="checkbox" id="nav-23">
+    
+    <label class="md-nav__link" for="nav-23">
+      APIs
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="APIs" data-md-level="1">
+      <label class="md-nav__title" for="nav-23">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        APIs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api/" title="APIs with SOAP, REST and gRPC" class="md-nav__link">
+      APIs with SOAP, REST and gRPC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../swagger-code-generator-for-rest-apis/" title="Swagger code generator for REST APIs" class="md-nav__link">
+      Swagger code generator for REST APIs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../postman/" title="API Test Automation with Postman" class="md-nav__link">
+      API Test Automation with Postman
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../developerportals/" title="API Marketplaces. API Management with API Gateways & Developer Portals" class="md-nav__link">
+      API Marketplaces. API Management with API Gateways & Developer Portals
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-24" type="checkbox" id="nav-24">
+    
+    <label class="md-nav__link" for="nav-24">
+      Development & Frameworks
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Development & Frameworks" data-md-level="1">
+      <label class="md-nav__title" for="nav-24">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Development & Frameworks
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../angular/" title="Angular" class="md-nav__link">
+      Angular
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dom/" title="Document Object Model (DOM)" class="md-nav__link">
+      Document Object Model (DOM)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SpringFramework/" title="Java - Spring Framework" class="md-nav__link">
+      Java - Spring Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SpringBoot/" title="Java - SpringBoot" class="md-nav__link">
+      Java - SpringBoot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SpringCloud/" title="Java - Spring Cloud" class="md-nav__link">
+      Java - Spring Cloud
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quarkus/" title="Java - Quarkus" class="md-nav__link">
+      Java - Quarkus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../javascript/" title="JavaScript - node.js & npm" class="md-nav__link">
+      JavaScript - node.js & npm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../python/" title="Python - Django & Flask" class="md-nav__link">
+      Python - Django & Flask
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../xamarin/" title="Xamarin" class="md-nav__link">
+      Xamarin
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-25" type="checkbox" id="nav-25">
+    
+    <label class="md-nav__link" for="nav-25">
+      Dev Environment
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Dev Environment" data-md-level="1">
+      <label class="md-nav__title" for="nav-25">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Dev Environment
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../visual-studio/" title="Visual Studio Code" class="md-nav__link">
+      Visual Studio Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linux-dev-env/" title="WSL - Linux Dev Environment on Windows" class="md-nav__link">
+      WSL - Linux Dev Environment on Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../scaffolding/" title="Scaffolding Tools" class="md-nav__link">
+      Scaffolding Tools
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ChromeDevTools/" title="ChromeDevTools" class="md-nav__link">
+      ChromeDevTools
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-26" type="checkbox" id="nav-26" checked>
+    
+    <label class="md-nav__link" for="nav-26">
+      Public Cloud
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Public Cloud" data-md-level="1">
+      <label class="md-nav__title" for="nav-26">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Public Cloud
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../public-cloud-solutions/" title="Public Cloud Solutions" class="md-nav__link">
+      Public Cloud Solutions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../edge-computing/" title="Edge Computing" class="md-nav__link">
+      Edge Computing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cloud-arch-diagrams/" title="Cloud Architecture Diagram Tools" class="md-nav__link">
+      Cloud Architecture Diagram Tools
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        AWS
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="AWS" class="md-nav__link md-nav__link--active">
+      AWS
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#amazon-web-services" class="md-nav__link">
+    Amazon Web Services
+  </a>
+  
+    <nav class="md-nav" aria-label="Amazon Web Services">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#amazon-web-services_1" class="md-nav__link">
+    Amazon Web Services
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#awesome-aws" class="md-nav__link">
+    Awesome AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-glossary" class="md-nav__link">
+    AWS Glossary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-on-twitter" class="md-nav__link">
+    AWS on Twitter
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-calculator" class="md-nav__link">
+    AWS Calculator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-architecture" class="md-nav__link">
+    AWS Application Architecture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-stacks" class="md-nav__link">
+    AWS Stacks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-youtube-channel-and-podcasts" class="md-nav__link">
+    AWS Youtube channel and Podcasts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closed-groups-for-aws-certified-professionals" class="md-nav__link">
+    Closed groups for AWS certified professionals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-reinvent-2015" class="md-nav__link">
+    AWS re:Invent 2015
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-slides" class="md-nav__link">
+    AWS Slides
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-architecture-blog-official-blog-aws-labs-aws-quick-start" class="md-nav__link">
+    AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-case-studies" class="md-nav__link">
+    AWS Case Studies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-tips-aws-performance-handling-aws-failures-and-outages" class="md-nav__link">
+    AWS tips. AWS Performance. Handling AWS Failures and Outages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-clients" class="md-nav__link">
+    AWS Clients
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-new-features" class="md-nav__link">
+    AWS New Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-management-console" class="md-nav__link">
+    AWS Management Console
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-management-tools-blog" class="md-nav__link">
+    AWS Management Tools Blog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-schema-conversion-tool" class="md-nav__link">
+    AWS Schema Conversion Tool
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-rds" class="md-nav__link">
+    AWS RDS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-discovery-service" class="md-nav__link">
+    AWS Application Discovery Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-aws-competency-aws-migration" class="md-nav__link">
+    New AWS Competency. AWS Migration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-database-migration-service" class="md-nav__link">
+    AWS Database Migration Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-redshift" class="md-nav__link">
+    AWS Redshift
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-devops-aws-codepipeline" class="md-nav__link">
+    AWS DevOps. AWS CodePipeline
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-elastic-beanstalk" class="md-nav__link">
+    AWS Elastic Beanstalk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-opsworks" class="md-nav__link">
+    AWS OpsWorks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-networking" class="md-nav__link">
+    AWS Networking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-route-53" class="md-nav__link">
+    AWS Route 53
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-elastic-load-balancing" class="md-nav__link">
+    AWS Elastic Load Balancing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-load-balancer" class="md-nav__link">
+    AWS Application Load Balancer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx" class="md-nav__link">
+    NGINX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-latency" class="md-nav__link">
+    AWS Latency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-ecs-optimized-ami" class="md-nav__link">
+    Amazon ECS optimized AMI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-ec2-container-registry-docker" class="md-nav__link">
+    AWS EC2 Container Registry (Docker)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker-for-aws" class="md-nav__link">
+    Docker for AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-cli" class="md-nav__link">
+    AWS CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-vpc" class="md-nav__link">
+    AWS VPC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-sqs-amazon-simple-queue-service" class="md-nav__link">
+    AWS SQS. Amazon Simple Queue Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-discovery-service-update-agentless-discovery-for-vmware" class="md-nav__link">
+    AWS Application Discovery Service Update. Agentless Discovery for VMware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vmware-cloud-on-aws" class="md-nav__link">
+    VMware Cloud on AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-developer-blog" class="md-nav__link">
+    AWS Developer Blog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-lambda-serverless" class="md-nav__link">
+    AWS Lambda Serverless
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-cloud-formation" class="md-nav__link">
+    AWS Cloud Formation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-for-windows" class="md-nav__link">
+    AWS for Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-deployment-with-aws" class="md-nav__link">
+    Continuous Deployment with AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-security" class="md-nav__link">
+    AWS Security
+  </a>
+  
+    <nav class="md-nav" aria-label="AWS Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#payment-card-industry-data-security-standard-compliance" class="md-nav__link">
+    Payment Card Industry Data Security Standard compliance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-iam" class="md-nav__link">
+    AWS IAM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-cloudfront" class="md-nav__link">
+    AWS CloudFront
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-waf-web-application-firewall" class="md-nav__link">
+    AWS WAF Web Application Firewall
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-vault" class="md-nav__link">
+    AWS Vault
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-s3-ebs-aws-storage-gateway" class="md-nav__link">
+    AWS S3 &amp; EBS. AWS Storage Gateway
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-efs-elastic-file-system" class="md-nav__link">
+    Amazon EFS Elastic File System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-fargate" class="md-nav__link">
+    AWS Fargate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-backup-and-recovery-design-for-failure" class="md-nav__link">
+    AWS Backup and Recovery. Design for failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-diagrams" class="md-nav__link">
+    AWS Diagrams
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-config-rules" class="md-nav__link">
+    AWS Config Rules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-big-data" class="md-nav__link">
+    AWS Big Data
+  </a>
+  
+    <nav class="md-nav" aria-label="AWS Big Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-data-lake" class="md-nav__link">
+    AWS Data Lake
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-data-pipeline-aka-big-data-pipelines-or-data-streams" class="md-nav__link">
+    AWS Data Pipeline (aka Big Data Pipelines or Data Streams)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-nosql-dynamodb" class="md-nav__link">
+    AWS NoSQL DynamoDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-iot" class="md-nav__link">
+    AWS IoT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-elastic-transcoder-video-streaming" class="md-nav__link">
+    AWS Elastic Transcoder. Video streaming
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-and-splunk" class="md-nav__link">
+    AWS and Splunk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-monitoring" class="md-nav__link">
+    AWS Monitoring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-alexa-voice-user-interface" class="md-nav__link">
+    Amazon Alexa. Voice User Interface
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-partner-network-apn" class="md-nav__link">
+    AWS Partner Network (APN)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-startup-collection-for-startups-building-on-aws" class="md-nav__link">
+    AWS Startup Collection. For startups building on AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eks" class="md-nav__link">
+    EKS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interview-questions" class="md-nav__link">
+    Interview Questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#localstack" class="md-nav__link">
+    Localstack
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#migrating-on-premise-vm-to-aws" class="md-nav__link">
+    Migrating On Premise VM to AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spain" class="md-nav__link">
+    Spain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs" class="md-nav__link">
+    Blogs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-pricing" class="md-nav__link">
+    AWS Pricing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    Videos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GoogleCloudPlatform/" title="Google Cloud Platform" class="md-nav__link">
+      Google Cloud Platform
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../azure/" title="Microsoft Azure" class="md-nav__link">
+      Microsoft Azure
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ibm_cloud/" title="IBM Cloud" class="md-nav__link">
+      IBM Cloud
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../oraclecloud/" title="Oracle Cloud" class="md-nav__link">
+      Oracle Cloud
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../digitalocean/" title="Digital Ocean" class="md-nav__link">
+      Digital Ocean
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cloudflare/" title="Cloudflare" class="md-nav__link">
+      Cloudflare
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../elearning/" title="E-Learning" class="md-nav__link">
+      E-Learning
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../customer/" title="Customer Success Stories" class="md-nav__link">
+      Customer Success Stories
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../newsfeeds/" title="Subreddits" class="md-nav__link">
+      Subreddits
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../other-awesome-lists/" title="Other Awesome Lists" class="md-nav__link">
+      Other Awesome Lists
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#amazon-web-services" class="md-nav__link">
+    Amazon Web Services
+  </a>
+  
+    <nav class="md-nav" aria-label="Amazon Web Services">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#amazon-web-services_1" class="md-nav__link">
+    Amazon Web Services
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#awesome-aws" class="md-nav__link">
+    Awesome AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-glossary" class="md-nav__link">
+    AWS Glossary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-on-twitter" class="md-nav__link">
+    AWS on Twitter
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-calculator" class="md-nav__link">
+    AWS Calculator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-architecture" class="md-nav__link">
+    AWS Application Architecture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-stacks" class="md-nav__link">
+    AWS Stacks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-youtube-channel-and-podcasts" class="md-nav__link">
+    AWS Youtube channel and Podcasts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#closed-groups-for-aws-certified-professionals" class="md-nav__link">
+    Closed groups for AWS certified professionals
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-reinvent-2015" class="md-nav__link">
+    AWS re:Invent 2015
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-slides" class="md-nav__link">
+    AWS Slides
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-architecture-blog-official-blog-aws-labs-aws-quick-start" class="md-nav__link">
+    AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-case-studies" class="md-nav__link">
+    AWS Case Studies
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-tips-aws-performance-handling-aws-failures-and-outages" class="md-nav__link">
+    AWS tips. AWS Performance. Handling AWS Failures and Outages
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-clients" class="md-nav__link">
+    AWS Clients
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-new-features" class="md-nav__link">
+    AWS New Features
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-management-console" class="md-nav__link">
+    AWS Management Console
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-management-tools-blog" class="md-nav__link">
+    AWS Management Tools Blog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-schema-conversion-tool" class="md-nav__link">
+    AWS Schema Conversion Tool
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-rds" class="md-nav__link">
+    AWS RDS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-discovery-service" class="md-nav__link">
+    AWS Application Discovery Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#new-aws-competency-aws-migration" class="md-nav__link">
+    New AWS Competency. AWS Migration
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-database-migration-service" class="md-nav__link">
+    AWS Database Migration Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-redshift" class="md-nav__link">
+    AWS Redshift
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-devops-aws-codepipeline" class="md-nav__link">
+    AWS DevOps. AWS CodePipeline
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-elastic-beanstalk" class="md-nav__link">
+    AWS Elastic Beanstalk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-opsworks" class="md-nav__link">
+    AWS OpsWorks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-networking" class="md-nav__link">
+    AWS Networking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-route-53" class="md-nav__link">
+    AWS Route 53
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-elastic-load-balancing" class="md-nav__link">
+    AWS Elastic Load Balancing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-load-balancer" class="md-nav__link">
+    AWS Application Load Balancer
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nginx" class="md-nav__link">
+    NGINX
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-latency" class="md-nav__link">
+    AWS Latency
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-ecs-optimized-ami" class="md-nav__link">
+    Amazon ECS optimized AMI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-ec2-container-registry-docker" class="md-nav__link">
+    AWS EC2 Container Registry (Docker)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker-for-aws" class="md-nav__link">
+    Docker for AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-cli" class="md-nav__link">
+    AWS CLI
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-vpc" class="md-nav__link">
+    AWS VPC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-sqs-amazon-simple-queue-service" class="md-nav__link">
+    AWS SQS. Amazon Simple Queue Service
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-application-discovery-service-update-agentless-discovery-for-vmware" class="md-nav__link">
+    AWS Application Discovery Service Update. Agentless Discovery for VMware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vmware-cloud-on-aws" class="md-nav__link">
+    VMware Cloud on AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-developer-blog" class="md-nav__link">
+    AWS Developer Blog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-lambda-serverless" class="md-nav__link">
+    AWS Lambda Serverless
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-cloud-formation" class="md-nav__link">
+    AWS Cloud Formation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-for-windows" class="md-nav__link">
+    AWS for Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continuous-deployment-with-aws" class="md-nav__link">
+    Continuous Deployment with AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-security" class="md-nav__link">
+    AWS Security
+  </a>
+  
+    <nav class="md-nav" aria-label="AWS Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#payment-card-industry-data-security-standard-compliance" class="md-nav__link">
+    Payment Card Industry Data Security Standard compliance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-iam" class="md-nav__link">
+    AWS IAM
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-cloudfront" class="md-nav__link">
+    AWS CloudFront
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-waf-web-application-firewall" class="md-nav__link">
+    AWS WAF Web Application Firewall
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-vault" class="md-nav__link">
+    AWS Vault
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-s3-ebs-aws-storage-gateway" class="md-nav__link">
+    AWS S3 &amp; EBS. AWS Storage Gateway
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-efs-elastic-file-system" class="md-nav__link">
+    Amazon EFS Elastic File System
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-fargate" class="md-nav__link">
+    AWS Fargate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-backup-and-recovery-design-for-failure" class="md-nav__link">
+    AWS Backup and Recovery. Design for failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-diagrams" class="md-nav__link">
+    AWS Diagrams
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-config-rules" class="md-nav__link">
+    AWS Config Rules
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-big-data" class="md-nav__link">
+    AWS Big Data
+  </a>
+  
+    <nav class="md-nav" aria-label="AWS Big Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#aws-data-lake" class="md-nav__link">
+    AWS Data Lake
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-data-pipeline-aka-big-data-pipelines-or-data-streams" class="md-nav__link">
+    AWS Data Pipeline (aka Big Data Pipelines or Data Streams)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-nosql-dynamodb" class="md-nav__link">
+    AWS NoSQL DynamoDB
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-iot" class="md-nav__link">
+    AWS IoT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-elastic-transcoder-video-streaming" class="md-nav__link">
+    AWS Elastic Transcoder. Video streaming
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-and-splunk" class="md-nav__link">
+    AWS and Splunk
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-monitoring" class="md-nav__link">
+    AWS Monitoring
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-alexa-voice-user-interface" class="md-nav__link">
+    Amazon Alexa. Voice User Interface
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-partner-network-apn" class="md-nav__link">
+    AWS Partner Network (APN)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-startup-collection-for-startups-building-on-aws" class="md-nav__link">
+    AWS Startup Collection. For startups building on AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#eks" class="md-nav__link">
+    EKS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interview-questions" class="md-nav__link">
+    Interview Questions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#localstack" class="md-nav__link">
+    Localstack
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#migrating-on-premise-vm-to-aws" class="md-nav__link">
+    Migrating On Premise VM to AWS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spain" class="md-nav__link">
+    Spain
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#blogs" class="md-nav__link">
+    Blogs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-pricing" class="md-nav__link">
+    AWS Pricing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#videos" class="md-nav__link">
+    Videos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/redhatspain/redhatspain.github.io/edit/master/docs/aws.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" /></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                  <h1>AWS</h1>
+                
+                <h2 id="amazon-web-services">Amazon Web Services<a class="headerlink" href="#amazon-web-services" title="Permanent link">&para;</a></h2>
+<p><br/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/donnemartin/data-science-ipython-notebooks/master/images/aws.png">
+</p>
+<br/>
+<!-- MarkdownTOC --></p>
+<ul>
+<li><a href="#amazon-web-services">Amazon Web Services</a></li>
+<li><a href="#awesome-aws">Awesome AWS</a></li>
+<li><a href="#aws-glossary">AWS Glossary</a></li>
+<li><a href="#aws-on-twitter">AWS on Twitter</a></li>
+<li><a href="#aws-calculator">AWS Calculator</a></li>
+<li><a href="#aws-application-architecture">AWS Application Architecture</a></li>
+<li><a href="#aws-stacks">AWS Stacks</a></li>
+<li><a href="#aws-youtube-channel-and-podcasts">AWS Youtube channel and Podcasts</a></li>
+<li><a href="#closed-groups-for-aws-certified-professionals">Closed groups for AWS certified professionals</a></li>
+<li><a href="#aws-reinvent-2015">AWS re:Invent 2015</a></li>
+<li><a href="#aws-slides">AWS Slides</a></li>
+<li><a href="#aws-architecture-blog-official-blog-aws-labs-aws-quick-start">AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start</a></li>
+<li><a href="#aws-case-studies">AWS Case Studies</a></li>
+<li><a href="#aws-tips-aws-performance-handling-aws-failures-and-outages">AWS tips. AWS Performance. Handling AWS Failures and Outages</a></li>
+<li><a href="#aws-clients">AWS Clients</a></li>
+<li><a href="#aws-new-features">AWS New Features</a></li>
+<li><a href="#aws-management-console">AWS Management Console</a></li>
+<li><a href="#aws-management-tools-blog">AWS Management Tools Blog</a></li>
+<li><a href="#aws-schema-conversion-tool">AWS Schema Conversion Tool</a></li>
+<li><a href="#aws-rds">AWS RDS</a></li>
+<li><a href="#aws-application-discovery-service">AWS Application Discovery Service</a></li>
+<li><a href="#new-aws-competency-aws-migration">New AWS Competency. AWS Migration</a></li>
+<li><a href="#aws-database-migration-service">AWS Database Migration Service</a></li>
+<li><a href="#aws-redshift">AWS Redshift</a></li>
+<li><a href="#aws-devops-aws-codepipeline">AWS DevOps. AWS CodePipeline</a></li>
+<li><a href="#aws-elastic-beanstalk">AWS Elastic Beanstalk</a></li>
+<li><a href="#aws-opsworks">AWS OpsWorks</a></li>
+<li><a href="#aws-networking">AWS Networking</a></li>
+<li><a href="#aws-route-53">AWS Route 53</a></li>
+<li><a href="#aws-elastic-load-balancing">AWS Elastic Load Balancing</a></li>
+<li><a href="#aws-application-load-balancer">AWS Application Load Balancer</a></li>
+<li><a href="#nginx">NGINX</a></li>
+<li><a href="#aws-latency">AWS Latency</a></li>
+<li><a href="#amazon-ecs-optimized-ami">Amazon ECS optimized AMI</a></li>
+<li><a href="#aws-ec2-container-registry-docker">AWS EC2 Container Registry (Docker)</a></li>
+<li><a href="#docker-for-aws">Docker for AWS</a></li>
+<li><a href="#aws-cli">AWS CLI</a></li>
+<li><a href="#aws-vpc">AWS VPC</a></li>
+<li><a href="#aws-sqs-amazon-simple-queue-service">AWS SQS. Amazon Simple Queue Service</a></li>
+<li><a href="#aws-application-discovery-service-update-agentless-discovery-for-vmware">AWS Application Discovery Service Update. Agentless Discovery for VMware</a></li>
+<li><a href="#vmware-cloud-on-aws">VMware Cloud on AWS</a></li>
+<li><a href="#aws-developer-blog">AWS Developer Blog</a></li>
+<li><a href="#aws-lambda-serverless">AWS Lambda Serverless</a></li>
+<li><a href="#aws-cloud-formation">AWS Cloud Formation</a></li>
+<li><a href="#aws-for-windows">AWS for Windows</a></li>
+<li><a href="#continuous-deployment-with-aws">Continuous Deployment with AWS</a></li>
+<li><a href="#aws-security">AWS Security</a><ul>
+<li><a href="#payment-card-industry-data-security-standard-compliance">Payment Card Industry Data Security Standard compliance</a></li>
+<li><a href="#aws-iam">AWS IAM</a></li>
+<li><a href="#aws-cloudfront">AWS CloudFront</a></li>
+<li><a href="#aws-waf-web-application-firewall">AWS WAF Web Application Firewall</a></li>
+<li><a href="#aws-vault">AWS Vault</a></li>
+</ul>
+</li>
+<li><a href="#aws-s3--ebs-aws-storage-gateway">AWS S3 &amp; EBS. AWS Storage Gateway</a></li>
+<li><a href="#amazon-efs-elastic-file-system">Amazon EFS Elastic File System</a></li>
+<li><a href="#aws-fargate">AWS Fargate</a></li>
+<li><a href="#aws-backup-and-recovery-design-for-failure">AWS Backup and Recovery. Design for failure</a></li>
+<li><a href="#aws-diagrams">AWS Diagrams</a></li>
+<li><a href="#aws-config-rules">AWS Config Rules</a></li>
+<li><a href="#aws-big-data">AWS Big Data</a><ul>
+<li><a href="#aws-data-lake">AWS Data Lake</a></li>
+<li><a href="#aws-data-pipeline-aka-big-data-pipelines-or-data-streams">AWS Data Pipeline (aka Big Data Pipelines or Data Streams)</a></li>
+</ul>
+</li>
+<li><a href="#aws-nosql-dynamodb">AWS NoSQL DynamoDB</a></li>
+<li><a href="#aws-iot">AWS IoT</a></li>
+<li><a href="#aws-elastic-transcoder-video-streaming">AWS Elastic Transcoder. Video streaming</a></li>
+<li><a href="#aws-and-splunk">AWS and Splunk</a></li>
+<li><a href="#aws-monitoring">AWS Monitoring</a></li>
+<li><a href="#amazon-alexa-voice-user-interface">Amazon Alexa. Voice User Interface</a></li>
+<li><a href="#aws-partner-network-apn">AWS Partner Network (APN)</a></li>
+<li><a href="#aws-startup-collection-for-startups-building-on-aws">AWS Startup Collection. For startups building on AWS</a></li>
+<li><a href="#eks">EKS</a></li>
+<li><a href="#interview-questions">Interview Questions</a></li>
+<li><a href="#localstack">Localstack</a></li>
+<li><a href="#migrating-on-premise-vm-to-aws">Migrating On Premise VM to AWS</a></li>
+<li><a href="#spain">Spain</a></li>
+<li><a href="#blogs">Blogs</a></li>
+<li><a href="#aws-pricing">AWS Pricing</a></li>
+<li><a href="#videos">Videos</a></li>
+</ul>
+<!-- /MarkdownTOC -->
+
+<h3 id="amazon-web-services_1">Amazon Web Services<a class="headerlink" href="#amazon-web-services_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://forums.aws.amazon.com">AWS Forums 🌟</a></li>
+<li><a href="https://aws.amazon.com/en/premiumsupport/knowledge-center/">AWS Knowledge Center</a></li>
+<li><a href="https://aws.amazon.com/en/premiumsupport/">AWS Support</a></li>
+<li><a href="https://github.com/awslabs">github.com/awslabs 🌟</a></li>
+<li><a href="http://www.slideshare.net/AmazonWebServices">slideshare.net/AmazonWebServices 🌟</a></li>
+<li><a href="https://aws.amazon.com/getting-started/tutorials/">AWS 10-Minute Tutorials 🌟</a></li>
+<li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/">How do I create and activate a new Amazon Web Services account?</a></li>
+<li><a href="https://onlineitguru.com/tutorial/aws-services">onlineitguru.com: AWS Services 🌟</a></li>
+</ul>
+<h3 id="awesome-aws">Awesome AWS<a class="headerlink" href="#awesome-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/donnemartin/awesome-aws">Awesome AWS</a></li>
+</ul>
+<h3 id="aws-glossary">AWS Glossary<a class="headerlink" href="#aws-glossary" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/general/latest/gr/glos-chap.html">AWS Glossary</a></li>
+</ul>
+<h3 id="aws-on-twitter">AWS on Twitter<a class="headerlink" href="#aws-on-twitter" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://twitter.com/awscloud">twitter.com/awscloud</a></li>
+<li><a href="https://twitter.com/AWSreInvent">twitter.com/AWSreInvent</a></li>
+<li><a href="https://twitter.com/jeffbarr">twitter.com/jeffbarr</a></li>
+<li><a href="https://twitter.com/AWSstartups">twitter.com/AWSstartups</a></li>
+<li><a href="https://twitter.com/AWS_Partners">twitter.com/AWS_Partners</a></li>
+</ul>
+<h3 id="aws-calculator">AWS Calculator<a class="headerlink" href="#aws-calculator" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/tco-calculator/">AWS Total Cost of Ownership (TCO) Calculators 🌟</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws-cost-management/understanding-your-aws-cost-datasets-a-cheat-sheet/">Understanding your AWS Cost Datasets: A Cheat Sheet</a></li>
+</ul>
+<h3 id="aws-application-architecture">AWS Application Architecture<a class="headerlink" href="#aws-application-architecture" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://www.conceptdraw.com/examples/application-architecture">AWS application-architecture 🌟</a></li>
+</ul>
+<h3 id="aws-stacks">AWS Stacks<a class="headerlink" href="#aws-stacks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://segment.com/blog/the-segment-aws-stack/">The Segment AWS Stack</a></li>
+</ul>
+<h3 id="aws-youtube-channel-and-podcasts">AWS Youtube channel and Podcasts<a class="headerlink" href="#aws-youtube-channel-and-podcasts" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/user/AmazonWebServices">Amazon Web Services Youtube</a></li>
+<li><a href="https://www.youtube.com/user/awstutorialseries">AWS Tutorial Series 🌟</a></li>
+<li><a href="https://www.youtube.com/user/AWSwebinars">AWS Webinar Channel 🌟</a></li>
+<li><a href="https://aws.amazon.com/podcasts/aws-podcast/">AWS Podcasts</a></li>
+<li><a href="https://aws.amazon.com/podcasts/aws-techchat">AWS Techchat</a></li>
+<li><a href="http://www.stitcher.com/podcast/amazon-web-services/aws-podcast">Stitcher AWS Podcasts</a></li>
+</ul>
+<h3 id="closed-groups-for-aws-certified-professionals">Closed groups for AWS certified professionals<a class="headerlink" href="#closed-groups-for-aws-certified-professionals" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://awscerts.slack.com">awscerts.slack.com</a></li>
+<li><a href="http://walkintocloud.com/index.php/2016/06/04/amazon-aws-certification-preparation-tips/">Amazon AWS Certification Preparation Tips 🌟</a></li>
+<li><a href="https://gist.github.com/leonardofed">A curated list of AWS resources to prepare for the AWS Certifications 🌟</a></li>
+<li><a href="https://blue-clouds.com/category/study-guide/">AWS Certified Solutions Architect Professional – Study Guide 🌟</a></li>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/10/first-aws-certification-study-guide-now-available/">aws.amazon.com: First AWS Certification Study Guide Now Available 🌟</a></li>
+<li><a href="https://www.linkedin.com/pulse/passed-aws-certified-solutions-architect-level-harshit-agarwal">Tips on Passing AWS Certified Solutions Architect - Professional Level</a></li>
+</ul>
+<h3 id="aws-reinvent-2015">AWS re:Invent 2015<a class="headerlink" href="#aws-reinvent-2015" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://www.siliconweek.es/data-storage/business-intelligence/festin-de-novedades-en-reinvent-2015-89129">Festín de novedades en re:Invent 2015</a></li>
+<li><a href="https://aws.amazon.com/es/new/">What&rsquo;s New from Amazon Web Services</a></li>
+<li><a href="https://d0.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf">AWS Well Architected Framework</a></li>
+<li><a href="https://www.youtube.com/watch?v=y-0Wf2Zyi5Q">AWS re:Invent 2015 Keynote | Werner Vogels</a><ul>
+<li><a href="https://www.youtube.com/watch?v=D5-ifl7KJ00">AWS re:Invent 2015 Keynote | Andy Jassy</a></li>
+</ul>
+</li>
+<li><a href="http://www.zdnet.com/article/aws-reinvent-five-takeaways-on-new-services/">AWS re:Invent: Five takeaways on Amazon&rsquo;s new cloud services</a></li>
+<li><a href="http://www.zdnet.com/article/amazon-web-services-big-data-analytics-enterprise-datacenters/">Amazon Web Services gets serious about big data analytics with bevy of new services</a></li>
+<li><a href="https://aws.amazon.com/es/quicksight/">Amazon QuickSight: Fast, easy to use, in-memory, Cloud BI service for everyone in an organization (not only technical people). It is 1/10 the cost of traditional BI tools</a></li>
+<li><a href="http://oak.ctx.ly/r/3tfr7">Revealed at AWS re:Invent: Amazon Kinesis Firehose - easily load streaming data into Amazon S3 &amp; Amazon RedShift</a></li>
+<li><a href="https://aws.amazon.com/es/streaming-data/">What is Streaming Data?</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/amazon-rds-update-mariadb-is-now-available">Amazon RDS Update – MariaDB is Now Available</a></li>
+<li><a href="http://aws.amazon.com/es/dms/">AWS Database Migration Service with AWS Schema Conversion Tool</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/aws-importexport-snowball-transfer-1-petabyte-per-week-using-amazon-owned-storage-appliances/">AWS Import/Export Snowball – Transfer 1 Petabyte Per Week Using Amazon-Owned Storage Appliances</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/category/aws-web-application-firewall/">AWS Web Application Firewall</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources/">AWS Config Rules – Dynamic Compliance Checking for Cloud Resources</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/amazon-inspector-automated-security-assessment-service">Amazon Inspector – Automated Security Assessment Service</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/coming-soon-ec2-dedicated-hosts">Coming Soon – EC2 Dedicated Hosts</a></li>
+<li><a href="http://aws.amazon.com/es/device-farm">AWS Device Farm Pruebe su aplicación en dispositivos reales en la nube de AWS. Mejore la calidad de sus aplicaciones iOS, Android y Fire OS al probarlas en smartphones y tablets reales en la nube de AWS</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/ec2-instance-update-x1-sap-hana-t2-nano-websites">EC2 Instance Update – X1 (SAP HANA) &amp; T2.Nano (Websites)</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/ec2-container-service-update-container-registry-ecs-cli-az-aware-scheduling-and-more">EC2 Container Service Update – Container Registry, ECS CLI, AZ-Aware Scheduling, and More</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/cloudwatch-dashboards-create-use-customized-metrics-views">CloudWatch Dashboards – Create &amp; Use Customized Metrics Views</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/aws-lambda-update-python-vpc-increased-function-duration-scheduling-and-more">AWS Lambda Update – Python, VPC, Increased Function Duration, Scheduling, and More</a></li>
+<li><a href="http://techcrunch.com/2015/10/08/amazon-launches-aws-mobile-hub-to-help-mobile-developers-build-back-end-processes/">Amazon Launches AWS Mobile Hub To Help Mobile Developers Build Back-End Processes</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/aws-iot-cloud-services-for-connected-devices">AWS IoT – Cloud Services for Connected Devices</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/aws-mobile-hub-build-test-and-monitor-mobile-applications">AWS Mobile Hub – Build, Test, and Monitor Mobile Applications</a></li>
+</ul>
+<h3 id="aws-slides">AWS Slides<a class="headerlink" href="#aws-slides" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://www.slideshare.net/AmazonWebServices">slideshare.net/AmazonWebServices</a></li>
+</ul>
+<h3 id="aws-architecture-blog-official-blog-aws-labs-aws-quick-start">AWS Architecture Blog, Official Blog, AWS Labs, AWS Quick Start<a class="headerlink" href="#aws-architecture-blog-official-blog-aws-labs-aws-quick-start" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.awsarchitectureblog.com">AWS Architecture Blog</a></li>
+<li><a href="http://blogs.aws.amazon.com/">AWS Official Blog</a></li>
+<li><a href="https://github.com/awslabs">AWS Labs GitHub</a></li>
+<li><a href="http://aws.amazon.com/es/quickstart/">AWS Quick Start Reference Deployments</a><ul>
+<li><a href="https://github.com/awslabs/aws-quickstart">AWS Quick Start - GitHub</a></li>
+</ul>
+</li>
+<li><a href="https://aws.amazon.com/blogs/aws/infoworld-review-amazon-aurora-rocks-mysql/">InfoWorld Review – Amazon Aurora Rocks MySQL</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/aws-cost-explorer-update-access-to-ec2-usage-data/">AWS Cost Explorer Update – Access to EC2 Usage Data</a></li>
+</ul>
+<h3 id="aws-case-studies">AWS Case Studies<a class="headerlink" href="#aws-case-studies" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/solutions/case-studies/thomas-publishing/">Thomas Publishing Case Study</a>  After moving to AWS, we were able to shut down our largest data center, eliminating hundreds of thousands of dollars in associated real estate, facility operations, and power and cooling costs.   </li>
+</ul>
+<h3 id="aws-tips-aws-performance-handling-aws-failures-and-outages">AWS tips. AWS Performance. Handling AWS Failures and Outages<a class="headerlink" href="#aws-tips-aws-performance-handling-aws-failures-and-outages" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/">AWS Tips I Wish I&rsquo;d Known Before I Started (Feb 2014) 🌟</a> A collection of random tips for Amazon Web Services (AWS) that I wish I&rsquo;d been told a few years ago, based on what I&rsquo;ve learned by building and deploying various applications on AWS.</li>
+<li><a href="http://www.tekhead.org/blog/2016/02/amazon-aws-tips-and-gotchas-part-1/">Amazon AWS Tips and Gotchas – Part 1 (Feb 2016)</a></li>
+<li><a href="https://dzone.com/articles/5-tips-for-better-aws-performance">DZone: 5 Tips for Better AWS Performance 🌟</a> The Ngnix team has a nice list of tips for better performance when using the AWS services. Some of them are related to Ngnix, but others are completely usable for anyone.</li>
+<li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/get-started-aws/">How do I get started with AWS cloud computing? 🌟</a></li>
+<li><a href="https://dzone.com/articles/dude-wheres-my-performance">DZone: Dude, Where&rsquo;s My Performance? 🌟</a></li>
+<li><a href="https://blog.appdynamics.com/cloud/a-guide-to-performance-challenges-with-aws-ec2-part-1/">DZone: A Guide to Performance Challenges with AWS EC2: Part 1</a> </li>
+<li><a href="https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-1">DZone: A Guide to Performance Challenges With AWS EC2: Part 2</a> Using Amazon Web Services? Learn how to get your Elastic Compute Cloud instances to perform better than your competitors.</li>
+<li><a href="https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-2">DZone: A Guide to Performance Challenges With AWS EC2: Part 3</a> In the second part of his guide covering performance challenges in AWS EC2, Saba Anees covers instances and the right applications for your workloads.</li>
+<li><a href="https://dzone.com/articles/a-guide-to-performance-challenges-with-aws-ec2-par-3">DZone: A Guide to Performance Challenges With AWS EC2: Part 4 🌟</a> In the final part of his series covering performance challenges with AWS EC2, Saba Anees goes over poor ELB performance and handling AWS failures and outages.</li>
+<li><a href="http://blog.datapath.io/dynamic-web-accelerator-for-aws-hosted-applications">blog.datapath.io: Dynamic Web Accelerator for AWS Hosted Applications 🌟</a></li>
+<li><a href="http://cloud.netapp.com/blog/prepare-for-the-day-of-all-cloud">The Truth About Downtime in the Cloud</a></li>
+</ul>
+<h3 id="aws-clients">AWS Clients<a class="headerlink" href="#aws-clients" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://www.theregister.co.uk/2016/07/13/trainline_dumps_oracle_microsoft_goes_full_aws_cto_interview/">Trainline.com dumps Oracle and Microsoft, gulps AWS Kool-Aid 🌟</a></li>
+<li><a href="https://www.youtube.com/watch?v=IUvUmqu1MBQ">London DevOps - Trainline, A DevOps Journey - Chris Turvil 🌟</a></li>
+<li><a href="https://aws.amazon.com/solutions/case-studies/trainline/">aws.amazon.com: Trainline Case Study</a></li>
+</ul>
+<h3 id="aws-new-features">AWS New Features<a class="headerlink" href="#aws-new-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/releasenotes">aws.amazon.com/releasenotes</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/amazon-elastic-file-system-shared-file-storage-for-amazon-ec2/">Amazon EFS: Amazon Elastic File System – Shared File Storage for Amazon EC2</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/new-encrypted-ebs-boot-volumes">New – Encrypted EBS Boot Volumes</a><ul>
+<li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSEncryption.html">Amazon EBS Encryption</a></li>
+</ul>
+</li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2015/12/now-add-or-modify-request-headers-forwarded-from-amazon-cloudfront-to-origin/">Now Add or Modify Request Headers Forwarded From Amazon CloudFront to Origin</a></li>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2015/12/aws-cloudformation-adds-support-for-aws-waf-and-aws-directory-service-for-microsoft-active-directory/">AWS CloudFormation Adds Support for AWS WAF and AWS Directory Service for Microsoft Active Directory</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/amazon-workmail-now-generally-available/">Amazon WorkMail – Now Generally Available</a></li>
+<li><a href="http://www.allthingsdistributed.com/2015/11/aws-announces-uk-region.html">London Calling! An AWS Region is coming to the UK!</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/new-scheduled-reserved-instances/">New – Scheduled Reserved Instances</a></li>
+</ul>
+<h3 id="aws-management-console">AWS Management Console<a class="headerlink" href="#aws-management-console" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html">Working with the AWS Management Console 🌟</a></li>
+</ul>
+<h3 id="aws-management-tools-blog">AWS Management Tools Blog<a class="headerlink" href="#aws-management-tools-blog" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/mt/">AWS Management Tools Blog</a></li>
+</ul>
+<h3 id="aws-schema-conversion-tool">AWS Schema Conversion Tool<a class="headerlink" href="#aws-schema-conversion-tool" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://cloudacademy.com/blog/migrating-data-to-aws/">cloudacademy.com: Migrating Data to AWS Using the AWS Schema Conversion Tool: A Preview</a></li>
+<li><a href="http://aws.amazon.com/about-aws/whats-new/2016/01/aws-schema-conversion-tool-postgresql-support/">AWS Schema Conversion Tool now supports PostgreSQL as conversion target</a></li>
+<li><a href="http://docs.aws.amazon.com/SchemaConversionTool/latest/userguide/CHAP_SchemaConversionTool.Converting.CreateProject.html">Creating an AWS Schema Conversion Tool Project 🌟</a> Use SSL to connect to your source DB with the AWS Schema Conversion Tool. </li>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/07/aws-schema-conversion-tool-now-supports-conversions-from-oracle-dw-and-teradata-to-amazon-redshift-embedded-code-conversion-and-cloud-native-code-optimization">AWS Schema Conversion Tool now supports conversions from Oracle DW and Teradata to Amazon Redshift, Embedded Code Conversion, and Cloud native Code Optimization</a></li>
+</ul>
+<h3 id="aws-rds">AWS RDS<a class="headerlink" href="#aws-rds" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_Tutorials.RestoringFromSnapshot.html">Tutorial: Restoring a DB Instance from a DB Snapshot</a></li>
+<li><a href="https://medium.com/airbnb-engineering/how-we-partitioned-airbnb-s-main-database-in-two-weeks-55f7e006ff21">Partitioning MySQL on RDS: &ldquo;How We Partitioned Airbnb’s Main Database in Two Weeks&rdquo; 🌟</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/amazon-rds-for-sql-server-support-for-windows-authentication/">Amazon RDS for SQL Server – Support for Windows Authentication</a></li>
+<li><a href="http://blog.rubyroidlabs.com/2016/04/postgresql-9-5/">Why Support of PostgreSQL 9.5 by Amazon RDS is Such Great News</a></li>
+<li><a href="https://aws.amazon.com/getting-started/tutorials/create-mysql-db/">AWS Tutorials: Create and Connect to a MySQL Database with Amazon RDS 🌟</a></li>
+<li><a href="http://cantrill.io/howto/aws/2016/06/06/migrating-from-mysql-to-aurora-with-almost-no-downtime.html">Migrating from MySQL (RDS) to Aurora with no downtime 🌟</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Aurora.Replication.CrossRegion.html">Replicating Amazon Aurora DB Clusters Across AWS Regions 🌟</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html">Working with PostgreSQL, MySQL, and MariaDB Read Replicas - Amazon 🌟</a> Use RDS PostgreSQL cross-region Read Replicas to get data close to customers. </li>
+<li><a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html">Working with an Amazon RDS DB Instance in a VPC</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_CreateOracleInstance.html">Creating a DB Instance Running the Oracle Database Engine</a> In RDS, create Oracle Standard Edition 2 DB instances with the License Included model.</li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-rds-for-postgresql-enhancements-support-for-new-minor-versions-logical-replication-and-amazon-rds-postgresql-as-a-source-for-aws-dms/">Amazon RDS for PostgreSQL Enhancements: Support for new minor versions, Logical Replication, and Amazon RDS PostgreSQL as a source for AWS DMS</a></li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/10/oracle-database-on-the-aws-cloud-quick-start-reference-deployment/">Oracle Database on the AWS Cloud: Quick Start Reference Deployment</a></li>
+<li><a href="https://www.besanttechnologies.com/amazon-web-services-relational-database">besanttechnologies.com: AWS – Relational Database Service</a></li>
+</ul>
+<h3 id="aws-application-discovery-service">AWS Application Discovery Service<a class="headerlink" href="#aws-application-discovery-service" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/application-discovery/latest/userguide/what-is-appdiscovery.html">AWS Application Discovery Service 🌟</a></li>
+</ul>
+<h3 id="new-aws-competency-aws-migration">New AWS Competency. AWS Migration<a class="headerlink" href="#new-aws-competency-aws-migration" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/aws/new-aws-competency-aws-migration/">New AWS Competency – AWS Migration 🌟</a></li>
+</ul>
+<h3 id="aws-database-migration-service">AWS Database Migration Service<a class="headerlink" href="#aws-database-migration-service" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/blogs/aws/aws-database-migration-service/">AWS Database Migration Service 🌟</a></li>
+<li><a href="https://aws.amazon.com/es/dms/learn-more/">Whitepaper: Migrating Your Databases to AWS</a></li>
+</ul>
+<h3 id="aws-redshift">AWS Redshift<a class="headerlink" href="#aws-redshift" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/redshift/latest/dg/tutorial-tuning-tables.html">Tutorial: Tuning Table Design 🌟</a> In this tutorial, you will learn how to optimize the design of your tables.</li>
+</ul>
+<h3 id="aws-devops-aws-codepipeline">AWS DevOps. AWS CodePipeline<a class="headerlink" href="#aws-devops-aws-codepipeline" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/devops/">AWS DevOps 🌟</a></li>
+<li><a href="https://blogs.aws.amazon.com/application-management/">AWS DevOps Blog</a></li>
+<li><a href="https://blogs.aws.amazon.com/application-management/post/TxMJROUIFQZ4HS/Setting-Up-the-Jenkins-Plugin-for-AWS-CodeDeploy">Setting Up the Jenkins Plugin for AWS CodeDeploy</a></li>
+<li><a href="https://blogs.aws.amazon.com/application-management/post/TxYSRRBH57NP2P/Continuous-Delivery-for-a-PHP-Application-Using-AWS-CodePipeline-AWS-Elastic-Bea">Continuous Delivery for a PHP Application Using AWS CodePipeline, AWS Elastic Beanstalk, and Solano Labs</a></li>
+<li><a href="https://blogs.aws.amazon.com/application-management/post/Tx34AXRMYLXG5OT/Building-Continuous-Deployment-on-AWS-with-AWS-CodePipeline-Jenkins-and-AWS-Elas">Building Continuous Deployment on AWS with AWS CodePipeline, Jenkins and AWS Elastic Beanstalk</a></li>
+<li><a href="http://blogs.aws.amazon.com/application-management/post/Tx3PE3JTSVJSFI7/AWS-CodeDeploy-Deploying-from-a-Development-Account-to-a-Production-Account">AWS CodeDeploy: Deploying from a Development Account to a Production Account</a></li>
+<li><a href="https://blazemeter.com/blog/three-ways-devops-benefit-aws-codepipeline">blazemeter.com: Three Ways DevOps Benefit from AWS CodePipeline</a></li>
+<li><a href="https://aws.amazon.com/es/codepipeline/product-integrations/">AWS Partner Network - CodePipeline Integrations</a></li>
+<li><a href="https://aws.amazon.com/solutions/multi-region-infrastructure-deployment/"><strong>Multi-Region Infrastructure Deployment</strong> 🌟</a> This solution automatically provisions and configures AWS CodePipeline to automate the CI/CD pipeline for CloudFormation templates</li>
+</ul>
+<h3 id="aws-elastic-beanstalk">AWS Elastic Beanstalk<a class="headerlink" href="#aws-elastic-beanstalk" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://aws.amazon.com/documentation/elastic-beanstalk/">AWS Elastic Beanstalk Documentation</a></li>
+<li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/php-ha-tutorial.html">Deploying a High-Availability PHP Application with an External Amazon RDS Database to Elastic Beanstalk 🌟</a></li>
+<li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_PHP_eb.html">Creating and Deploying PHP Applications on AWS Elastic Beanstalk</a></li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-asp-net-core-and-multi-app-net-support/">AWS Elastic Beanstalk Supports ASP.NET Core and Multi-App .NET Support</a></li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-application-load-balancer/">AWS Elastic Beanstalk Supports Application Load Balancer</a></li>
+<li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/environments-cfg-applicationloadbalancer.html">Configuring an Application Load Balancer</a></li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/08/aws-elastic-beanstalk-supports-nginx-proxy-server-with-tomcat/">AWS Elastic Beanstalk Supports Nginx Proxy Server with Tomcat</a> </li>
+</ul>
+<h3 id="aws-opsworks">AWS OpsWorks<a class="headerlink" href="#aws-opsworks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/opsworks/">AWS OpsWorks</a></li>
+<li><a href="http://docs.aws.amazon.com/opsworks/latest/userguide/workingcookbook-chef11.html">AWS OpsWorks - Chef Versions</a></li>
+<li><a href="https://www.youtube.com/watch?v=cj_LoG6C2xk&amp;list=PLR3sVanzLpJN6BiYS20K4BMPpiDGifbZy">youtube: AWS OpsWorks Overview and Demo</a></li>
+<li><a href="https://docs.aws.amazon.com/opsworks/latest/userguide/workinginstances-os-linux.html?adbsc=docs_20160709_63418706&amp;adbid=UPDATE-c2382910-6157610151248490496&amp;adbpl=li&amp;adbpr=2382910#workinginstances-os-linux-centos">Use OpsWorks to create and manage instances that run CentOS 7</a></li>
+</ul>
+<h3 id="aws-networking">AWS Networking<a class="headerlink" href="#aws-networking" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/blogs/apn/aws-networking-for-developers/">AWS Networking for Developers</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/elastic-network-adapter-high-performance-network-interface-for-amazon-ec2">Elastic Network Adapter</a></li>
+<li><a href="http://www.netdesignarena.com/index.php/2020/04/15/new-blog-series-aws-cloud-networking-zero-to-hero/">AWS Cloud Networking – Zero to Hero 🌟</a></li>
+</ul>
+<h3 id="aws-route-53">AWS Route 53<a class="headerlink" href="#aws-route-53" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/transfer-domain-to-aws/">How do I transfer a domain to AWS from another registrar?</a></li>
+</ul>
+<h3 id="aws-elastic-load-balancing">AWS Elastic Load Balancing<a class="headerlink" href="#aws-elastic-load-balancing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HinwLb2lpLQ">AWS Summit Series 2016 | London: Deep Dive on Elastic Load Balancing</a></li>
+<li><a href="http://docs.aws.amazon.com/elasticloadbalancing/latest/userguide/what-is-load-balancing.html">docs.aws.amazon.com: What Is Elastic Load Balancing?</a></li>
+</ul>
+<h3 id="aws-application-load-balancer">AWS Application Load Balancer<a class="headerlink" href="#aws-application-load-balancer" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/">Application Load Balancer 🌟</a></li>
+<li><a href="https://aws.amazon.com/blogs/aws/new-aws-application-load-balancer/">aws blogs - New – AWS Application Load Balancer</a></li>
+</ul>
+<h3 id="nginx">NGINX<a class="headerlink" href="#nginx" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/09/nginx-plus-on-the-aws-cloud-quick-start-reference-deployment/">NGINX Plus on the AWS Cloud: Quick Start Reference Deployment</a></li>
+</ul>
+<h3 id="aws-latency">AWS Latency<a class="headerlink" href="#aws-latency" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://aws-latency.altaircp.com/">Find the fastest region from your location</a> Check AWS response time from you browser. Sharing my mini-project, it measures response time from AWS services from different regions base on your location. let me know what you think.</li>
+<li><a href="https://www.linkedin.com/groups/49531/49531-6092152919937794052">Linkedin Discussion</a><blockquote>
+<ol>
+<li>Don&rsquo;t do just a single check, the first check will be a lot slower as DNS lookups will need to be done, etc.</li>
+<li>I&rsquo;d recommend doing at least 3 checks getting an average.</li>
+</ol>
+</blockquote>
+</li>
+<li>Run 6 checks (with a random 3-10 second delay between each one), the first can be ignored, the highest one is also ignored (as a likely outlier), then for the next 4 show the minimum, maximum and average (mean).</li>
+<li><a href="https://medium.com/aws-activate-startup-blog/optimizing-latency-and-bandwidth-for-aws-traffic-cdfd18d0d0f7">medium.com: Optimizing Latency and Bandwidth for AWS Traffic</a></li>
+</ul>
+<h3 id="amazon-ecs-optimized-ami">Amazon ECS optimized AMI<a class="headerlink" href="#amazon-ecs-optimized-ami" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html">Amazon ECS-optimized AMI</a></li>
+</ul>
+<h3 id="aws-ec2-container-registry-docker">AWS EC2 Container Registry (Docker)<a class="headerlink" href="#aws-ec2-container-registry-docker" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://medium.com/aws-activate-startup-blog/a-better-dev-test-experience-docker-and-aws-291da5ab1238">A Better Dev/Test Experience: Docker and AWS</a></li>
+<li><a href="http://aws.amazon.com/es/documentation/ecr/">Amazon EC2 Container Registry Documentation</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonECR/latest/userguide/ECR_GetStarted.html">Get started with Amazon EC2 Container Registry (Amazon ECR)</a></li>
+<li><a href="http://blog.scottlowe.org/2016/03/22/using-docker-machine-with-aws/">Using Docker Machine with AWS</a></li>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/06/docker-datacenter-on-the-aws-cloud-quick-start-reference-deployment/">Docker Datacenter on the AWS Cloud: Quick Start Reference Deployment 🌟</a></li>
+</ul>
+<h3 id="docker-for-aws">Docker for AWS<a class="headerlink" href="#docker-for-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://dzone.com/articles/getting-started-with-docker-for-aws-and-scaling-no">DZone: Getting Started With Docker for AWS and Scaling Nodes</a> This blog will explain how to get started with Docker for AWS and deploy a multi-host Swarm cluster on Amazon.</li>
+<li><a href="http://blog.couchbase.com/2016/july/docker-for-aws-getting-started-scaling-nodes">blog.couchbase.com: Getting Started with Docker for AWS and Scaling Nodes</a></li>
+</ul>
+<h3 id="aws-cli">AWS CLI<a class="headerlink" href="#aws-cli" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/cli">Amazon CLI Documentation</a></li>
+<li><a href="http://docs.aws.amazon.com/cli/latest/index.html">AWS CLI Command Reference</a></li>
+<li><a href="http://docs.aws.amazon.com/cli/latest/reference/codepipeline/index.html">New usage examples have been added to the CLI for CodePipeline API Reference</a></li>
+<li><a href="https://pypi.python.org/pypi/ec2-ssh-yplan/">ec2-ssh-yplan: A pair of command line utilities for finding and SSH-ing into your Amazon EC2 instances by tag (such as ‘Name’)</a></li>
+<li>List running instances using &lsquo;awscli&rsquo;:</li>
+</ul>
+<pre><code class="bash">aws ec2 describe-instances --filters Name=instance-state-name,Values=running --query 'Reservations[].Instances[].[InstanceID]'
+</code></pre>
+
+<ul>
+<li>List all AWS instances in a table format using &lsquo;awscli&rsquo;:</li>
+</ul>
+<pre><code class="bash">aws ec2 describe-instances --query 'Reservations[].Instances[].[Placement.AvailabilityZone, State.Name, InstanceID,InstanceType,Platform,Tags.Value,State.Code,Tags.Values]' --output table
+</code></pre>
+
+<h3 id="aws-vpc">AWS VPC<a class="headerlink" href="#aws-vpc" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://www.linuxjournal.com/content/aws-ec2-vpc-cli">linuxjournal.com: AWS EC2 VPC CLI</a></li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/07/build-a-modular-and-scalable-amazon-vpc-architecture-with-new-quick-start">Build a Modular and Scalable Amazon VPC Architecture with New Quick Start 🌟</a> Build a modular virtual network architecture with Amazon VPC in 5 minutes with our new Quick Start</li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/08/specifying-the-vpc-for-your-amazon-rds-db-instance/">Specifying the VPC for your Amazon RDS DB Instance</a> You can now easily change the Amazon VPC used by your Amazon RDS DB instance!</li>
+<li><a href="https://awsfundamentals.blogspot.com/2019/12/aws-vpc-fundamental.html">awsfundamentals.blogspot.com: AWS Virtual Private Cloud - VPC 🌟</a></li>
+</ul>
+<h3 id="aws-sqs-amazon-simple-queue-service">AWS SQS. Amazon Simple Queue Service<a class="headerlink" href="#aws-sqs-amazon-simple-queue-service" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-limits.html">Limits in Amazon SQS</a></li>
+<li><a href="https://aws.amazon.com/sqs/faqs/">Amazon SQS FAQs</a></li>
+</ul>
+<h3 id="aws-application-discovery-service-update-agentless-discovery-for-vmware">AWS Application Discovery Service Update. Agentless Discovery for VMware<a class="headerlink" href="#aws-application-discovery-service-update-agentless-discovery-for-vmware" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/blogs/aws/aws-application-discovery-service-update-agentless-discovery-for-vmware/">AWS Application Discovery Service Update – Agentless Discovery for VMware</a></li>
+</ul>
+<h3 id="vmware-cloud-on-aws">VMware Cloud on AWS<a class="headerlink" href="#vmware-cloud-on-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/vmware/">VMware Cloud on AWS</a> The Only Way to Extend Your VMware Environment into AWS</li>
+<li><a href="http://www.infoworld.com/article/3131347/hybrid-cloud/4-no-bull-insights-into-the-awsvmware-deal.html">infoworld.com: 4 no-bull insights into the AWS/VMware deal</a></li>
+</ul>
+<h3 id="aws-developer-blog">AWS Developer Blog<a class="headerlink" href="#aws-developer-blog" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/developer/">The AWS Developer Blog now includes Python &amp; GoLang</a></li>
+<li><a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/create-api-using-import-export-api.html">Create an API Using the Swagger Specification and the API Gateway Extensions</a></li>
+</ul>
+<h3 id="aws-lambda-serverless">AWS Lambda Serverless<a class="headerlink" href="#aws-lambda-serverless" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://martinfowler.com/articles/serverless.html">martinfowler.com: Serverless Architectures 🌟</a></li>
+<li><a href="http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html">you can use Python with AWS Lambda</a></li>
+<li><a href="http://www.giantflyingsaucer.com/blog/?p=5730">Build a Python Microservice with Amazon Web Services Lambda &amp; API Gateway</a></li>
+<li><a href="http://www.logicworks.net/blog/2016/01/aws-lambda-echo-cloud-automation/">AWS Lambda, Echo, and the Future of Cloud Automation</a> A fantastic blog article by Logicworks on Lambda, the coming move to serverless architecture and even the possibility of using Amazon&rsquo;s Echo to launch entire AWS environments by using just your voice</li>
+<li><a href="https://read.acloud.guru/serverless-the-future-of-software-architecture-d4473ffed864#.uk7setw47">Serverless: The Future of Software Architecture?</a></li>
+<li><a href="https://www.npmjs.com/package/lambda-load-test">npmjs.com: Lambda load test</a></li>
+<li><a href="http://docs.aws.amazon.com/lambda/latest/dg/limits.html">AWS Lambda Limits</a></li>
+<li><a href="http://blog.powerupcloud.com/2016/02/07/aws-inventory-details-in-csv-using-lambda">blog.powerupcloud.com: AWS inventory details in CSV using lambda 🌟</a></li>
+<li><a href="https://aws.amazon.com/premiumsupport/knowledge-center/start-stop-lambda-cloudwatch/">How do I stop and start EC2 instances at regular intervals using AWS Lambda? (Video) 🌟</a></li>
+<li><a href="https://www.youtube.com/channel/UC_vJsnqdpuEoRseFmlkHMkA">Youtube channel: AWS Serverless</a></li>
+</ul>
+<h3 id="aws-cloud-formation">AWS Cloud Formation<a class="headerlink" href="#aws-cloud-formation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/ReleaseHistory.html">AWS Cloud Formation Release History</a></li>
+<li><a href="http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-template-resource-type-ref.html">All the AWS Resource Types Reference for AWS CloudFormation </a></li>
+</ul>
+<h3 id="aws-for-windows">AWS for Windows<a class="headerlink" href="#aws-for-windows" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://blog.rackspace.com/patch-and-ami-management-for-windows-on-aws">blog.rackspace.com: Patch and AMI Management for Windows on AWS</a> step-by-step guide about patch and AMI management for Windows on AWS</li>
+</ul>
+<h3 id="continuous-deployment-with-aws">Continuous Deployment with AWS<a class="headerlink" href="#continuous-deployment-with-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/devops/tag/continuous-deployment/">Continuous Deployment with AWS</a></li>
+</ul>
+<h3 id="aws-security">AWS Security<a class="headerlink" href="#aws-security" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://blogs.aws.amazon.com/security">AWS Security Blog 🌟</a></li>
+<li><a href="https://aws.amazon.com/security/">AWS Security 🌟</a></li>
+<li><a href="https://docs.aws.amazon.com/security/">AWS Security docs 🌟</a></li>
+<li><a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/SSL-on-an-instance.html">Tutorial: Configure Apache Web Server on Amazon Linux to use SSL/TLS</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx4QX7W51NDSLO/The-Most-Popular-AWS-Security-Blog-Posts-in-2015">The Most Popular AWS Security Blog Posts in 2015</a></li>
+<li><a href="https://dzone.com/articles/private-subnets-are-broken-on-aws">dzone: Private Subnets Are Broken on AWS</a></li>
+<li><a href="https://medium.com/@espringe/amazon-s-customer-service-backdoor-be375b3428c4#.qyixu5mu3">Amazon’s customer service backdoor</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx3PTTZB14FWPBA/Announcing-Industry-Best-Practices-for-Securing-AWS-Resources">Announcing Industry Best Practices for Securing AWS Resources 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx2N52FR8XGJVL3/The-Most-Viewed-AWS-Security-Blog-Posts-so-Far-in-2016">The Most Viewed AWS Security Blog Posts so Far in 2016 🌟</a></li>
+<li><a href="https://aws.amazon.com/es/blogs/apn/oracle-database-encryption-options-on-amazon-rds/">Oracle Database Encryption Options on Amazon RDS</a></li>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/06/learn-aws-security-fundamentals-with-free-and-online-training">Learn AWS Security Fundamentals with Free and Online Training 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/TxK5WUJK3DG9G8/How-to-Restrict-Amazon-S3-Bucket-Access-to-a-Specific-IAM-Role">How to Restrict Amazon S3 Bucket Access to a Specific IAM Role</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx6QAIBSQTJPHB/Updated-Whitepaper-Available-AWS-Best-Practices-for-DDoS-Resiliency">Updated Whitepaper Available: AWS Best Practices for DDoS Resiliency 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx3KVD6T490MM47/In-Case-You-Missed-These-AWS-Security-Blog-Posts-from-June-July-and-August">AWS Security Blog: In Case You Missed These: AWS Security Blog Posts from June, July, and August 2016</a></li>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/08/amazon-inspector-announces-general-availability-for-windows/">Amazon Inspector Announces General Availability for Windows</a></li>
+<li><a href="https://docs.aws.amazon.com/kms/latest/developerguide/importing-keys.html">encrypt and decrypt data: Importing Key Material in AWS Key Management Service (AWS KMS)</a> Use your own encryption keys with AWS Key Management Service.</li>
+<li><a href="http://blogs.aws.amazon.com/security/post/TxLEHNNDPUFDU9/Automated-Reasoning-and-Amazon-s2n">Amazon s2n: AWS’s new Open Source implementation of the SSL/TLS network encryption protocols</a></li>
+</ul>
+<h4 id="payment-card-industry-data-security-standard-compliance">Payment Card Industry Data Security Standard compliance<a class="headerlink" href="#payment-card-industry-data-security-standard-compliance" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/05/pci-dss-standardized-architecture-on-the-aws-cloud-quick-start-reference-deployment/">PCI DSS Standardized Architecture on the AWS Cloud: Quick Start Reference Deployment 🌟</a></li>
+</ul>
+<h4 id="aws-iam">AWS IAM<a class="headerlink" href="#aws-iam" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="http://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started.html">AWS Identity and Access Management - Getting Started 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx2OB7YGHMB7WCM/Adhere-to-IAM-Best-Practices-in-2016">AWS Identity and Access Management (IAM) best practices in 2016</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx14ADBJOCAT9NS/How-to-Record-and-Govern-Your-IAM-Resource-Configurations-Using-AWS-Config">How to Record and Govern Your IAM Resource Configurations Using AWS Config</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx2CGWIB8SBYW2J/How-to-Use-SAML-to-Automatically-Direct-Federated-Users-to-a-Specific-AWS-Manage">How to Use SAML to Automatically Direct Federated Users to a Specific AWS Management Console Page</a></li>
+</ul>
+<h4 id="aws-cloudfront">AWS CloudFront<a class="headerlink" href="#aws-cloudfront" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://aws.amazon.com/about-aws/whats-new/2016/09/amazon-cloudfront-now-supports-http2/">Amazon CloudFront now supports HTTP/2 🌟</a></li>
+</ul>
+<h4 id="aws-waf-web-application-firewall">AWS WAF Web Application Firewall<a class="headerlink" href="#aws-waf-web-application-firewall" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://aws.amazon.com/waf/">AWS WAF - Web Application Firewall</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx1LPI2H6Q6S5KC/How-to-Automatically-Update-Your-Security-Groups-for-Amazon-CloudFront-and-AWS-W">How to Automatically Update Your Security Groups for Amazon CloudFront and AWS WAF by Using AWS Lambda (boto3 python)</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx223ZW25YRPRKV/How-to-Use-AWS-WAF-to-Block-IP-Addresses-That-Generate-Bad-Requests">How to Use AWS WAF to Block IP Addresses That Generate Bad Requests 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/security/post/Tx1G747SE1R2ZWE/How-to-Reduce-Security-Threats-and-Operating-Costs-Using-AWS-WAF-and-Amazon-Clou">How to Reduce Security Threats and Operating Costs Using AWS WAF and Amazon CloudFront</a></li>
+<li><a href="https://github.com/awslabs/aws-waf-sample">AWS WAF sample rules</a></li>
+</ul>
+<h4 id="aws-vault">AWS Vault<a class="headerlink" href="#aws-vault" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/99designs/aws-vault">AWS Vault</a> is a tool to securely store and access AWS credentials in a development environment.</li>
+<li><a href="https://thomas.geens.be/2020/05/24/aws-sourcing-aws-cli-credentials-using-a-custom-aws-cli-credential-provider-and-aws-vault/">AWS: Sourcing AWS CLI Credentials using a Custom AWS CLI Credential Provider and AWS Vault</a></li>
+</ul>
+<h3 id="aws-s3-ebs-aws-storage-gateway">AWS S3 &amp; EBS. AWS Storage Gateway<a class="headerlink" href="#aws-s3-ebs-aws-storage-gateway" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/s3/faqs/">S3 FAQ 🌟</a></li>
+<li><a href="http://docs.aws.amazon.com/AmazonS3/latest/dev/ipv6-access.html">Making Requests to Amazon S3 over IPv6</a> Amazon Simple Storage Service (Amazon S3) supports the ability to access S3 buckets using the Internet Protocol version 6 (IPv6), in addition to the IPv4 protocol.</li>
+<li><a href="https://aws.amazon.com/blogs/apn/how-to-build-sparse-ebs-volumes-for-fun-and-easy-snapshotting/">How to Build Sparse EBS Volumes for Fun and Easy Snapshotting</a></li>
+<li><a href="http://docs.aws.amazon.com/storagegateway/latest/userguide/GettingStarted-common.html">Getting Started with AWS Storage Gateway</a></li>
+</ul>
+<h3 id="amazon-efs-elastic-file-system">Amazon EFS Elastic File System<a class="headerlink" href="#amazon-efs-elastic-file-system" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/blogs/aws/amazon-elastic-file-system-production-ready-in-three-regions">EFS Elastic File System</a></li>
+</ul>
+<h3 id="aws-fargate">AWS Fargate<a class="headerlink" href="#aws-fargate" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/blogs/containers/developers-guide-to-using-amazon-efs-with-amazon-ecs-and-aws-fargate-part-1/">Amazon EFS with Amazon ECS and AWS Fargate – Part 1 🌟</a></li>
+</ul>
+<h3 id="aws-backup-and-recovery-design-for-failure">AWS Backup and Recovery. Design for failure<a class="headerlink" href="#aws-backup-and-recovery-design-for-failure" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://www.infostor.com/backup-and_recovery/quantum-taps-aws-for-cloud-powered-disaster-recovery.html">Quantum Taps AWS for Cloud-Powered Disaster Recovery</a></li>
+<li><a href="https://www.linkedin.com/groups/49531/49531-6093375473969090562">Linkedin discussion: Need help on Backup and restore methods of EC2 using s3 services</a></li>
+<li><a href="https://www.hava.io/blog/design-for-failure-lessons-learnt-from-the-sydney-aws-outage">Design for failure lessons learnt from the Sydney AWS outage 🌟</a></li>
+<li><a href="https://github.com/Netflix/SimianArmy/wiki/Chaos-Monkey">Chaos Monkey 🌟</a> The Netflix Chaos Monkey tool allows you to proactively launch attack code against your infrastructure to cause failures and give you the chance to fix potential problems before they occur on their own. </li>
+<li><a href="https://www.udemy.com/how-to-architect-with-a-design-for-failure-approach/">Udemy - AWS: How to Architect with a Design for Failure Approach</a></li>
+<li><a href="https://www.cloudinsidr.com/content/how-to-restore-your-instance-data-from-a-backup-using-snapshots-on-aws-ec2ebs/">How to Restore Your Instance Data from a Backup using Snapshots on AWS EC2/EBS</a></li>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/08/backup-and-archive-to-aws-storage-gateway-vtl-with-veeam-backup-and-replication-v9/">Backup and archive to AWS Storage Gateway VTL with Veeam Backup &amp; Replication v9 🌟</a></li>
+</ul>
+<h3 id="aws-diagrams">AWS Diagrams<a class="headerlink" href="#aws-diagrams" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/architecture/icons/">AWS Architecture Icons</a> The official AWS icon set for building architecture diagrams</li>
+<li><a href="https://cloudcraft.co/">cloudcraft.co</a></li>
+<li><a href="https://www.hava.io/">hava.io</a></li>
+<li><a href="https://duo.com/blog/introducing-cloudmapper-an-aws-visualization-tool">CloudMapper (OSS)</a></li>
+<li><a href="https://www.lucidchart.com/pages/integrations/aws-architecture-import">Lucidchart</a></li>
+<li><a href="https://infviz.io/">infviz.io</a></li>
+<li><a href="https://www.hyperglance.com/">hyperglance</a></li>
+<li>AWS CloudFormer + AWS CloudFormation Designer</li>
+<li><a href="https://acloud.guru/forums/aws-certified-advanced-networking-specialty/discussion/-LELSWplsuDI8q8_KtjN/What%20is%20the%20best%20way%20to%20generate%20a%20visual%20diagram%20of%20the%20AWS%20environment%20which%20includes%20VPC,%20VPN,%20EC2,%20and%20AMIs%3F">What is the best way to generate a visual diagram of the AWS environment which includes VPC, VPN, EC2, and AMIs?</a></li>
+<li><a href="https://www.cloudskew.com/">CloudSkew</a> Free AWS, Azure, GCP, Kubernetes Architecture Diagram Tool</li>
+</ul>
+<h3 id="aws-config-rules">AWS Config Rules<a class="headerlink" href="#aws-config-rules" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/04/aws-config-rules-now-available-in-4-new-regions-us-west-oregon-eu-ireland-eu-frankfurt-and-asia-pacific-tokyo/">AWS Config Rules now available in 4 new regions: US West (Oregon), EU (Ireland), EU (Frankfurt) and Asia Pacific (Tokyo)</a></li>
+</ul>
+<h3 id="aws-big-data">AWS Big Data<a class="headerlink" href="#aws-big-data" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://aws.amazon.com/big-data">aws.amazon.com/big-data 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/bigdata/">blogs.aws.amazon.com/bigdata</a></li>
+<li><a href="http://blogs.aws.amazon.com/bigdata/post/Tx3916WCIUPVA3T/Querying-Amazon-Kinesis-Streams-Directly-with-SQL-and-Spark-Streaming">Querying Amazon Kinesis Streams Directly with SQL and Spark Streaming</a></li>
+<li><a href="http://blogs.aws.amazon.com/bigdata/post/Tx1G4SQRV049UL0/Analyze-Your-Data-on-Amazon-DynamoDB-with-Apache-Spark">Analyze Your Data on Amazon DynamoDB with Apache Spark 🌟</a></li>
+<li><a href="http://blogs.aws.amazon.com/bigdata/post/Tx2D93GZRHU3TES/Using-Spark-SQL-for-ETL">Using Spark SQL for ETL</a></li>
+</ul>
+<h4 id="aws-data-lake">AWS Data Lake<a class="headerlink" href="#aws-data-lake" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://aws.amazon.com/big-data/data-lake-on-aws/">Building a Data Lake on AWS</a> AWS provides a highly scalable, flexible, secure, and cost-effective solution for your organization to build a Data Lake – a data repository for both structured and unstructured data that is designed to be easily accessible for on-demand data analytics enabling you to answer questions as they arise.</li>
+</ul>
+<h4 id="aws-data-pipeline-aka-big-data-pipelines-or-data-streams">AWS Data Pipeline (aka Big Data Pipelines or Data Streams)<a class="headerlink" href="#aws-data-pipeline-aka-big-data-pipelines-or-data-streams" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://aws.amazon.com/datapipeline/">AWS Data Pipeline</a></li>
+<li><a href="https://docs.aws.amazon.com/data-pipeline/index.html">AWS Data Pipeline Documentation 🌟</a></li>
+<li><a href="https://medium.com/@dima.statz_89242/no-code-data-collect-api-on-aws-d79e3681d204">medium: No-Code Data Collect API on AWS 🌟</a> A No-Code Data Collections mechanism for Big Data Pipelines on AWS.</li>
+<li><a href="https://aws.amazon.com/blogs/big-data/category/analytics/aws-data-pipeline/">AWS Big Data Blog: Category - AWS Data Pipeline</a></li>
+</ul>
+<h3 id="aws-nosql-dynamodb">AWS NoSQL DynamoDB<a class="headerlink" href="#aws-nosql-dynamodb" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/about-aws/whats-new/2016/06/easily-model-your-app-data-in-a-nosql-database-with-aws-mobile-hub/">Easily model your app data in a NoSQL database with AWS Mobile Hub</a></li>
+</ul>
+<h3 id="aws-iot">AWS IoT<a class="headerlink" href="#aws-iot" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/en/iot">aws.amazon.com/en/iot</a></li>
+<li><a href="http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html">What Is AWS IoT?</a></li>
+</ul>
+<h3 id="aws-elastic-transcoder-video-streaming">AWS Elastic Transcoder. Video streaming<a class="headerlink" href="#aws-elastic-transcoder-video-streaming" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://docs.aws.amazon.com/elastictranscoder/latest/developerguide/job-settings.html">Settings that You Specify When You Create an Elastic Transcoder Job</a></li>
+</ul>
+<h3 id="aws-and-splunk">AWS and Splunk<a class="headerlink" href="#aws-and-splunk" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://blogs.splunk.com/2016/06/22/aws-video/">blogs.splunk.com: AWS Agility + Splunk Visibility = Customer Success</a></li>
+</ul>
+<h3 id="aws-monitoring">AWS Monitoring<a class="headerlink" href="#aws-monitoring" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/andrewpuch/nagios_setup">github: Steps I used to install Nagios in the cloud</a></li>
+<li><a href="https://github.com/jonrau1/ElectricEye/blob/master/README.md">github: ElectricEye 🌟</a> is a set of Python scripts (affectionately called Auditors) that continuously monitor your AWS infrastructure looking for configurations related to confidentiality, integrity and availability that do not align with AWS best practices.</li>
+</ul>
+<h3 id="amazon-alexa-voice-user-interface">Amazon Alexa. Voice User Interface<a class="headerlink" href="#amazon-alexa-voice-user-interface" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://developer.amazon.com/public/community/post/TxDJWS16KUPVKO/New-Alexa-Skills-Kit-Template-Build-a-Trivia-Skill-in-under-an-Hour">New Alexa Skills Kit Template: Build a Trivia Skill in under an Hour</a></li>
+</ul>
+<h3 id="aws-partner-network-apn">AWS Partner Network (APN)<a class="headerlink" href="#aws-partner-network-apn" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/partners/">AWS Partner Network</a><ul>
+<li><a href="https://aws.amazon.com/partners/technology/">APN Technology Partners</a></li>
+<li><a href="https://aws.amazon.com/partners/consulting/">APN Consulting Partners</a></li>
+</ul>
+</li>
+<li><a href="https://aws.amazon.com/blogs/apn/">AWS Partner Network (APN) blog</a><ul>
+<li><a href="https://aws.amazon.com/blogs/apn/active-directory-single-sign-on-sso-on-aws-with-bitium">Active Directory Single Sign-On (SSO) on AWS with Bitium</a></li>
+<li><a href="https://aws.amazon.com/blogs/apn/how-to-deploy-a-high-availability-web-service-on-aws-using-spotinst/">How to Deploy a High Availability Web Service on AWS Using Spotinst</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="aws-startup-collection-for-startups-building-on-aws">AWS Startup Collection. For startups building on AWS<a class="headerlink" href="#aws-startup-collection-for-startups-building-on-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://medium.com/aws-activate-startup-blog/bitmovin-improving-video-quality-on-the-web-8670039c4334">bitmovin: Improving Video Quality on the Web</a></li>
+<li><a href="https://medium.com/aws-activate-startup-blog/what-startups-should-know-about-amazon-vpc-part-1-bebe94b7f228">What Startups Should Know about Amazon VPC — Part 1</a></li>
+<li><a href="https://medium.com/aws-activate-startup-blog/scaling-on-aws-part-3-500k-users-3750b227b761">Scaling on AWS (Part 3): &gt;500K Users</a></li>
+<li><a href="https://medium.com/aws-activate-startup-blog/building-a-serverless-dynamic-dns-system-with-aws-a32256f0a1d8#.qq54pucbd">medium.com: Building a Serverless Dynamic DNS System with AWS</a></li>
+<li><a href="https://medium.com/aws-activate-startup-blog/the-top-10-aws-startup-blog-posts-of-2015-d2975e3778bb">medium.com: The Top 10 AWS Startup Blog Posts of 2015</a></li>
+</ul>
+<h3 id="eks">EKS<a class="headerlink" href="#eks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/blogs/aws/eks-price-reduction/">Amazon EKS Price Reduction</a></li>
+<li><a href="https://cloudonaut.io/scaling-container-clusters-on-aws-ecs-eks/">cloudonaut.io: Scaling Container Clusters on AWS: ECS and EKS 🌟</a></li>
+</ul>
+<h3 id="interview-questions">Interview Questions<a class="headerlink" href="#interview-questions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://intellipaat.com/blog/interview-question/amazon-aws-interview-questions/">intellipaat.com: Top Amazon AWS Interview Questions – Most Asked</a></li>
+</ul>
+<h3 id="localstack">Localstack<a class="headerlink" href="#localstack" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://localstack.cloud/">localstack.cloud 🌟</a> Develop and test your cloud apps offline. A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline! </li>
+<li><a href="https://github.com/localstack/localstack">github.com/localstack/localstack</a></li>
+</ul>
+<h3 id="migrating-on-premise-vm-to-aws">Migrating On Premise VM to AWS<a class="headerlink" href="#migrating-on-premise-vm-to-aws" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://youtu.be/buzusNljpy4">youtube: Migrating On Premise VM to AWS | VM Import/Export | Create EC2 instance based on on-premises server</a></li>
+</ul>
+<h3 id="spain">Spain<a class="headerlink" href="#spain" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.xataka.com/servicios/que-amazon-ha-elegido-aragon-para-instalar-sus-tres-primeros-centros-datos-espana">xataka.com: Por qué Amazon ha elegido Aragón para instalar sus tres primeros centros de datos en España</a></li>
+<li><a href="https://emea-resources.awscloud.com/spain-events-webinars">RESOURCE HUB: Eventos y webinars de AWS</a></li>
+</ul>
+<h3 id="blogs">Blogs<a class="headerlink" href="#blogs" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://jayendrapatil.com/">Jayendra&rsquo;s Blog 🌟🌟🌟</a></li>
+</ul>
+<h3 id="aws-pricing">AWS Pricing<a class="headerlink" href="#aws-pricing" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://aws.amazon.com/es/blogs/aws/ec2-price-reduction-for-ec2-instance-saving-plans-and-standard-reserved-instances/">May 2020: EC2 Price Reduction – For EC2 Instance Saving Plans and Standard Reserved Instances 🌟</a></li>
+</ul>
+<h3 id="videos">Videos<a class="headerlink" href="#videos" title="Permanent link">&para;</a></h3>
+<p><center>
+<iframe src="https://www.youtube.com/embed/GBLPi-mno7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media" allowfullscreen></iframe>
+</center></p>
+<p><center>
+<a href="https://aws.amazon.com/compliance/shared-responsibility-model/"><img alt="aws responsability model" src="../images/aws_shared_responsability_model.jpg" /></a>
+</center></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../cloud-arch-diagrams/" title="Cloud Architecture Diagram Tools" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Cloud Architecture Diagram Tools
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../GoogleCloudPlatform/" title="Google Cloud Platform" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Google Cloud Platform
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://redhatspain.github.io/about/">about</a>.
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.36cbf620.min.js"></script>
+      <script src="../assets/javascripts/bundle.00c583dd.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.7f7c8775.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../javascript/extra.js"></script>
+      
+    
+  </body>
+</html>

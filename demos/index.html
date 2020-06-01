@@ -1,0 +1,2664 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A curated list of awesome IT projects and resources. Inspired by the awesome list.">
+      
+      
+        <link rel="canonical" href="https://redhatspain.github.io/demos/">
+      
+      
+        <meta name="author" content="inafev">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.1.0">
+    
+    
+      
+        <title>Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more - Awesome Kubernetes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.89dc9fe3.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../static/extra.css">
+    
+    
+      
+        
+<link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-167788447-1","awesome kubernetes"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview")})</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#devops-demos-screencasts" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://redhatspain.github.io" title="Awesome Kubernetes" class="md-header-nav__button md-logo" aria-label="Awesome Kubernetes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Awesome Kubernetes
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/redhatspain/redhatspain.github.io/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    redhatspain/redhatspain.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://redhatspain.github.io" title="Awesome Kubernetes" class="md-nav__button md-logo" aria-label="Awesome Kubernetes">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,8A3,3 0 0,0 15,5A3,3 0 0,0 12,2A3,3 0 0,0 9,5A3,3 0 0,0 12,8M12,11.54C9.64,9.35 6.5,8 3,8V19C6.5,19 9.64,20.35 12,22.54C14.36,20.35 17.5,19 21,19V8C17.5,8 14.36,9.35 12,11.54Z" /></svg>
+
+    </a>
+    Awesome Kubernetes
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/redhatspain/redhatspain.github.io/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    redhatspain/redhatspain.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Introduction
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Introduction" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Introduction
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introduction/" title="Openshift VS Kubernetes" class="md-nav__link">
+      Openshift VS Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../javaee-to-cloud-native/" title="From Java EE To Cloud Native" class="md-nav__link">
+      From Java EE To Cloud Native
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq/" title="Microservices FAQ & Kubernetes Native" class="md-nav__link">
+      Microservices FAQ & Kubernetes Native
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sre/" title="Site Reliability Engineering (SRE)" class="md-nav__link">
+      Site Reliability Engineering (SRE)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../serverless/" title="Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless" class="md-nav__link">
+      Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      DevOps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="DevOps" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        DevOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../devops/" title="DevOps" class="md-nav__link">
+      DevOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cheatsheets/" title="Cheat Sheets" class="md-nav__link">
+      Cheat Sheets
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../gitops/" title="GitOps" class="md-nav__link">
+      GitOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,9H17V7H3V9M3,13H17V11H3V13M3,17H17V15H3V17M19,17H21V15H19V17M19,7V9H21V7H19M19,13H21V11H19V13Z" /></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more" class="md-nav__link md-nav__link--active">
+      Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#devops-demos-screencasts" class="md-nav__link">
+    DevOps Demos &amp; Screencasts
+  </a>
+  
+    <nav class="md-nav" aria-label="DevOps Demos &amp; Screencasts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#devops-screencasts" class="md-nav__link">
+    DevOps Screencasts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#devops-blogs" class="md-nav__link">
+    DevOps Blogs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#devops-demos" class="md-nav__link">
+    DevOps Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="DevOps Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ansible-and-ansible-tower" class="md-nav__link">
+    Ansible and Ansible Tower
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-demos" class="md-nav__link">
+    Kubernetes Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#istio" class="md-nav__link">
+    Istio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-eks-deploy-example-microservices-on-eks" class="md-nav__link">
+    Amazon EKS. Deploy example microservices on EKS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-hat-demo-central" class="md-nav__link">
+    Red Hat Demo Central
+  </a>
+  
+    <nav class="md-nav" aria-label="Red Hat Demo Central">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cloud-native-development-architectural-diagrams-demos" class="md-nav__link">
+    Cloud Native Development Architectural Diagrams Demos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-demos" class="md-nav__link">
+    OpenShift Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="OpenShift Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-pak-playbooks" class="md-nav__link">
+    IBM Cloud Pak Playbooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knative" class="md-nav__link">
+    Knative
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-pipelines-workshop-tekton" class="md-nav__link">
+    OpenShift Pipelines Workshop (Tekton)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-demos" class="md-nav__link">
+    Jenkins Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="Jenkins Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-declarative-pipelines-with-openshift" class="md-nav__link">
+    Jenkins Declarative Pipelines with OpenShift
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-pipelines-with-s2i-and-jenkins-blue-ocean" class="md-nav__link">
+    OpenShift Pipelines with S2i and Jenkins Blue Ocean
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-configuration-as-code-on-kubernetes" class="md-nav__link">
+    Jenkins Configuration as Code on Kubernetes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs" class="md-nav__link">
+    From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-scripts" class="md-nav__link">
+    Jenkins Scripts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nexus3-on-kubernetes" class="md-nav__link">
+    Nexus3 on Kubernetes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spring-petclinic-sample-application" class="md-nav__link">
+    Spring PetClinic Sample Application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-demos" class="md-nav__link">
+    AWS Demos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azure-devops-demos" class="md-nav__link">
+    Azure DevOps Demos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-devops-demos" class="md-nav__link">
+    Google DevOps Demos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      NoOps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="NoOps" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        NoOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../noops/" title="NoOps" class="md-nav__link">
+      NoOps
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../serverless/" title="Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless" class="md-nav__link">
+      Serverless Architectures & Frameworks. OpenFaaS, Knative & Kubeless
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../finops/" title="FinOps - Cloud Financial Management" class="md-nav__link">
+      FinOps - Cloud Financial Management
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../testops/" title="TestOps and Continuous Testing" class="md-nav__link">
+      TestOps and Continuous Testing
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9">
+    
+    <label class="md-nav__link" for="nav-9">
+      Project Management Methodology
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Project Management Methodology" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Project Management Methodology
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../project-management-methodology/" title="Project Management Methodology" class="md-nav__link">
+      Project Management Methodology
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../workfromhome/" title="Work From Home" class="md-nav__link">
+      Work From Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../appointment-scheduling/" title="Appointment Scheduling" class="md-nav__link">
+      Appointment Scheduling
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../docker/" title="Docker" class="md-nav__link">
+      Docker
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-11" type="checkbox" id="nav-11">
+    
+    <label class="md-nav__link" for="nav-11">
+      Kubernetes
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Kubernetes" data-md-level="1">
+      <label class="md-nav__title" for="nav-11">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Kubernetes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kubernetes/" title="Kubernetes" class="md-nav__link">
+      Kubernetes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../matrix-table/" title="Kubernetes Matrix Table" class="md-nav__link">
+      Kubernetes Matrix Table
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kubernetes-alternatives/" title="Kubernetes alternatives" class="md-nav__link">
+      Kubernetes alternatives
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-12" type="checkbox" id="nav-12">
+    
+    <label class="md-nav__link" for="nav-12">
+      OpenShift
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="OpenShift" data-md-level="1">
+      <label class="md-nav__title" for="nav-12">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        OpenShift
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../openshift/" title="OpenShift docs" class="md-nav__link">
+      OpenShift docs
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13" type="checkbox" id="nav-13">
+    
+    <label class="md-nav__link" for="nav-13">
+      Software Delivery Pipeline
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Software Delivery Pipeline" data-md-level="1">
+      <label class="md-nav__title" for="nav-13">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Software Delivery Pipeline
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cicd/" title="CI/CD - Continuous Integration & Continuous Delivery" class="md-nav__link">
+      CI/CD - Continuous Integration & Continuous Delivery
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../git/" title="Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs" class="md-nav__link">
+      Git & Git Patterns. Trunk Devel, Git Flow & Feature Flags. Merge BOTs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jenkins/" title="Jenkins & Cloudbees" class="md-nav__link">
+      Jenkins & Cloudbees
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../openshift-pipelines/" title="OpenShift Pipelines with Jenkins, Tekton and more..." class="md-nav__link">
+      OpenShift Pipelines with Jenkins, Tekton and more...
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../performance-testing-with-jenkins-and-jmeter/" title="Performance testing with Jenkins and JMeter or Gatling" class="md-nav__link">
+      Performance testing with Jenkins and JMeter or Gatling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jenkins-alternatives/" title="Jenkins Alternatives for Continuous Integration" class="md-nav__link">
+      Jenkins Alternatives for Continuous Integration
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-13-7" type="checkbox" id="nav-13-7">
+    
+    <label class="md-nav__link" for="nav-13-7">
+      Toolchain
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Toolchain" data-md-level="2">
+      <label class="md-nav__title" for="nav-13-7">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Toolchain
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../container-managers/" title="Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo" class="md-nav__link">
+      Container Runtimes/Managers & Base Images. Podman, Buildah & Skopeo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../maven-gradle/" title="Maven & Gradle" class="md-nav__link">
+      Maven & Gradle
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../sonarqube/" title="SonarQube" class="md-nav__link">
+      SonarQube
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nexus-jfrog/" title="Nexus & JFrog Artifactory" class="md-nav__link">
+      Nexus & JFrog Artifactory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../web-servers/" title="Web Servers - Apache, HAProxy & Nginx" class="md-nav__link">
+      Web Servers - Apache, HAProxy & Nginx
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../payara/" title="Payara App Server" class="md-nav__link">
+      Payara App Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../embedded-servlet-containers/" title="Embedded Servlet Containers in SpringBoot" class="md-nav__link">
+      Embedded Servlet Containers in SpringBoot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../selenium-appium-zephyr/" title="Selenium, Appium & Zephyr Jira plugin" class="md-nav__link">
+      Selenium, Appium & Zephyr Jira plugin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linux/" title="Linux & SSH" class="md-nav__link">
+      Linux & SSH
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../yaml-processors/" title="YAML processors" class="md-nav__link">
+      YAML processors
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-14" type="checkbox" id="nav-14">
+    
+    <label class="md-nav__link" for="nav-14">
+      Java Memory Management
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Java Memory Management" data-md-level="1">
+      <label class="md-nav__title" for="nav-14">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Java Memory Management
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../java-and-java-performance-optimization/" title="Java Memory Management & Java Performance Optimization" class="md-nav__link">
+      Java Memory Management & Java Performance Optimization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../jvm-parameters-matrix-table/" title="Java Parameters Matrix Table" class="md-nav__link">
+      Java Parameters Matrix Table
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../caching/" title="Caching Solutions" class="md-nav__link">
+      Caching Solutions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../monitoring/" title="Monitoring and Performance. Prometheus, Grafana, APMs and more" class="md-nav__link">
+      Monitoring and Performance. Prometheus, Grafana, APMs and more
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-17" type="checkbox" id="nav-17">
+    
+    <label class="md-nav__link" for="nav-17">
+      Configuration Management
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Configuration Management" data-md-level="1">
+      <label class="md-nav__title" for="nav-17">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Configuration Management
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ansible/" title="Ansible" class="md-nav__link">
+      Ansible
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../liquibase/" title="Liquibase" class="md-nav__link">
+      Liquibase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../terraform/" title="Terraform & Packer" class="md-nav__link">
+      Terraform & Packer
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-18" type="checkbox" id="nav-18">
+    
+    <label class="md-nav__link" for="nav-18">
+      Databases on Kubernetes
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Databases on Kubernetes" data-md-level="1">
+      <label class="md-nav__title" for="nav-18">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Databases on Kubernetes
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../databases/" title="Relational Databases and Database DevOps. CrunchyData Postgres Operator" class="md-nav__link">
+      Relational Databases and Database DevOps. CrunchyData Postgres Operator
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nosql/" title="NoSQL Databases" class="md-nav__link">
+      NoSQL Databases
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../message-queue/" title="Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)" class="md-nav__link">
+      Cloud Based Integration & Messaging. Data Processing & Streaming (aka Data Pipeline)
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-20" type="checkbox" id="nav-20">
+    
+    <label class="md-nav__link" for="nav-20">
+      Service Mesh
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Service Mesh" data-md-level="1">
+      <label class="md-nav__title" for="nav-20">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Service Mesh
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../servicemesh/" title="Service Mesh" class="md-nav__link">
+      Service Mesh
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../consul/" title="Consul" class="md-nav__link">
+      Consul
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../envoyproxy/" title="Envoy & xDS protocol" class="md-nav__link">
+      Envoy & xDS protocol
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istio/" title="Istio" class="md-nav__link">
+      Istio
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linkerd/" title="Linkerd" class="md-nav__link">
+      Linkerd
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../maesh/" title="Maesh" class="md-nav__link">
+      Maesh
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../trafficdirector/" title="Traffic Director" class="md-nav__link">
+      Traffic Director
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-21" type="checkbox" id="nav-21">
+    
+    <label class="md-nav__link" for="nav-21">
+      Security and DevSecOps
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Security and DevSecOps" data-md-level="1">
+      <label class="md-nav__title" for="nav-21">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Security and DevSecOps
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../devsecops/" title="DevSecOps. Container Security" class="md-nav__link">
+      DevSecOps. Container Security
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../securityascode/" title="Security Policy as Code" class="md-nav__link">
+      Security Policy as Code
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../storage/" title="Cloud Native Storage" class="md-nav__link">
+      Cloud Native Storage
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-23" type="checkbox" id="nav-23">
+    
+    <label class="md-nav__link" for="nav-23">
+      APIs
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="APIs" data-md-level="1">
+      <label class="md-nav__title" for="nav-23">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        APIs
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../api/" title="APIs with SOAP, REST and gRPC" class="md-nav__link">
+      APIs with SOAP, REST and gRPC
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../swagger-code-generator-for-rest-apis/" title="Swagger code generator for REST APIs" class="md-nav__link">
+      Swagger code generator for REST APIs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../postman/" title="API Test Automation with Postman" class="md-nav__link">
+      API Test Automation with Postman
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../developerportals/" title="API Marketplaces. API Management with API Gateways & Developer Portals" class="md-nav__link">
+      API Marketplaces. API Management with API Gateways & Developer Portals
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-24" type="checkbox" id="nav-24">
+    
+    <label class="md-nav__link" for="nav-24">
+      Development & Frameworks
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Development & Frameworks" data-md-level="1">
+      <label class="md-nav__title" for="nav-24">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Development & Frameworks
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../angular/" title="Angular" class="md-nav__link">
+      Angular
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../dom/" title="Document Object Model (DOM)" class="md-nav__link">
+      Document Object Model (DOM)
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SpringFramework/" title="Java - Spring Framework" class="md-nav__link">
+      Java - Spring Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SpringBoot/" title="Java - SpringBoot" class="md-nav__link">
+      Java - SpringBoot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../SpringCloud/" title="Java - Spring Cloud" class="md-nav__link">
+      Java - Spring Cloud
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../quarkus/" title="Java - Quarkus" class="md-nav__link">
+      Java - Quarkus
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../javascript/" title="JavaScript - node.js & npm" class="md-nav__link">
+      JavaScript - node.js & npm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../python/" title="Python - Django & Flask" class="md-nav__link">
+      Python - Django & Flask
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../xamarin/" title="Xamarin" class="md-nav__link">
+      Xamarin
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-25" type="checkbox" id="nav-25">
+    
+    <label class="md-nav__link" for="nav-25">
+      Dev Environment
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Dev Environment" data-md-level="1">
+      <label class="md-nav__title" for="nav-25">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Dev Environment
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../visual-studio/" title="Visual Studio Code" class="md-nav__link">
+      Visual Studio Code
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linux-dev-env/" title="WSL - Linux Dev Environment on Windows" class="md-nav__link">
+      WSL - Linux Dev Environment on Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../scaffolding/" title="Scaffolding Tools" class="md-nav__link">
+      Scaffolding Tools
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ChromeDevTools/" title="ChromeDevTools" class="md-nav__link">
+      ChromeDevTools
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-26" type="checkbox" id="nav-26">
+    
+    <label class="md-nav__link" for="nav-26">
+      Public Cloud
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Public Cloud" data-md-level="1">
+      <label class="md-nav__title" for="nav-26">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+        </span>
+        Public Cloud
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../public-cloud-solutions/" title="Public Cloud Solutions" class="md-nav__link">
+      Public Cloud Solutions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../edge-computing/" title="Edge Computing" class="md-nav__link">
+      Edge Computing
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cloud-arch-diagrams/" title="Cloud Architecture Diagram Tools" class="md-nav__link">
+      Cloud Architecture Diagram Tools
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../aws/" title="AWS" class="md-nav__link">
+      AWS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../GoogleCloudPlatform/" title="Google Cloud Platform" class="md-nav__link">
+      Google Cloud Platform
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../azure/" title="Microsoft Azure" class="md-nav__link">
+      Microsoft Azure
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ibm_cloud/" title="IBM Cloud" class="md-nav__link">
+      IBM Cloud
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../oraclecloud/" title="Oracle Cloud" class="md-nav__link">
+      Oracle Cloud
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../digitalocean/" title="Digital Ocean" class="md-nav__link">
+      Digital Ocean
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cloudflare/" title="Cloudflare" class="md-nav__link">
+      Cloudflare
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../elearning/" title="E-Learning" class="md-nav__link">
+      E-Learning
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../customer/" title="Customer Success Stories" class="md-nav__link">
+      Customer Success Stories
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../newsfeeds/" title="Subreddits" class="md-nav__link">
+      Subreddits
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../other-awesome-lists/" title="Other Awesome Lists" class="md-nav__link">
+      Other Awesome Lists
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#devops-demos-screencasts" class="md-nav__link">
+    DevOps Demos &amp; Screencasts
+  </a>
+  
+    <nav class="md-nav" aria-label="DevOps Demos &amp; Screencasts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#devops-screencasts" class="md-nav__link">
+    DevOps Screencasts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#devops-blogs" class="md-nav__link">
+    DevOps Blogs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#devops-demos" class="md-nav__link">
+    DevOps Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="DevOps Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ansible-and-ansible-tower" class="md-nav__link">
+    Ansible and Ansible Tower
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kubernetes-demos" class="md-nav__link">
+    Kubernetes Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="Kubernetes Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#istio" class="md-nav__link">
+    Istio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amazon-eks-deploy-example-microservices-on-eks" class="md-nav__link">
+    Amazon EKS. Deploy example microservices on EKS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#red-hat-demo-central" class="md-nav__link">
+    Red Hat Demo Central
+  </a>
+  
+    <nav class="md-nav" aria-label="Red Hat Demo Central">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cloud-native-development-architectural-diagrams-demos" class="md-nav__link">
+    Cloud Native Development Architectural Diagrams Demos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-demos" class="md-nav__link">
+    OpenShift Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="OpenShift Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ibm-cloud-pak-playbooks" class="md-nav__link">
+    IBM Cloud Pak Playbooks
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knative" class="md-nav__link">
+    Knative
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-pipelines-workshop-tekton" class="md-nav__link">
+    OpenShift Pipelines Workshop (Tekton)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-demos" class="md-nav__link">
+    Jenkins Demos
+  </a>
+  
+    <nav class="md-nav" aria-label="Jenkins Demos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-declarative-pipelines-with-openshift" class="md-nav__link">
+    Jenkins Declarative Pipelines with OpenShift
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#openshift-pipelines-with-s2i-and-jenkins-blue-ocean" class="md-nav__link">
+    OpenShift Pipelines with S2i and Jenkins Blue Ocean
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-configuration-as-code-on-kubernetes" class="md-nav__link">
+    Jenkins Configuration as Code on Kubernetes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs" class="md-nav__link">
+    From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jenkins-scripts" class="md-nav__link">
+    Jenkins Scripts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nexus3-on-kubernetes" class="md-nav__link">
+    Nexus3 on Kubernetes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#spring-petclinic-sample-application" class="md-nav__link">
+    Spring PetClinic Sample Application
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aws-demos" class="md-nav__link">
+    AWS Demos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#azure-devops-demos" class="md-nav__link">
+    Azure DevOps Demos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-devops-demos" class="md-nav__link">
+    Google DevOps Demos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/redhatspain/redhatspain.github.io/edit/master/docs/demos.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" /></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                  <h1>Demos & Screencasts. OpenShift, Kubernetes, Jenkins Pipelines with JCasC and more</h1>
+                
+                <h2 id="devops-demos-screencasts">DevOps Demos &amp; Screencasts<a class="headerlink" href="#devops-demos-screencasts" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="#devops-screencasts">DevOps Screencasts</a></li>
+<li><a href="#devops-blogs">DevOps Blogs</a></li>
+<li><a href="#devops-demos">DevOps Demos</a><ul>
+<li><a href="#ansible-and-ansible-tower">Ansible and Ansible Tower</a></li>
+</ul>
+</li>
+<li><a href="#kubernetes-demos">Kubernetes Demos</a><ul>
+<li><a href="#istio">Istio</a></li>
+<li><a href="#amazon-eks-deploy-example-microservices-on-eks">Amazon EKS. Deploy example microservices on EKS</a></li>
+</ul>
+</li>
+<li><a href="#red-hat-demo-central">Red Hat Demo Central</a><ul>
+<li><a href="#cloud-native-development-architectural-diagrams-demos">Cloud Native Development Architectural Diagrams Demos</a></li>
+</ul>
+</li>
+<li><a href="#openshift-demos">OpenShift Demos</a><ul>
+<li><a href="#ibm-cloud-pak-playbooks">IBM Cloud Pak Playbooks</a></li>
+<li><a href="#knative">Knative</a></li>
+<li><a href="#openshift-pipelines-workshop-tekton">OpenShift Pipelines Workshop (Tekton)</a></li>
+</ul>
+</li>
+<li><a href="#jenkins-demos">Jenkins Demos</a><ul>
+<li><a href="#jenkins-declarative-pipelines-with-openshift">Jenkins Declarative Pipelines with OpenShift</a></li>
+<li><a href="#openshift-pipelines-with-s2i-and-jenkins-blue-ocean">OpenShift Pipelines with S2i and Jenkins Blue Ocean</a></li>
+<li><a href="#jenkins-configuration-as-code-on-kubernetes">Jenkins Configuration as Code on Kubernetes</a></li>
+<li><a href="#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs">From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs</a></li>
+<li><a href="#jenkins-scripts">Jenkins Scripts</a></li>
+</ul>
+</li>
+<li><a href="#nexus3-on-kubernetes">Nexus3 on Kubernetes</a></li>
+<li><a href="#spring-petclinic-sample-application">Spring PetClinic Sample Application</a></li>
+<li><a href="#aws-demos">AWS Demos</a></li>
+<li><a href="#azure-devops-demos">Azure DevOps Demos</a></li>
+<li><a href="#google-devops-demos">Google DevOps Demos</a></li>
+</ul>
+<h3 id="devops-screencasts">DevOps Screencasts<a class="headerlink" href="#devops-screencasts" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://sysadmincasts.com/">SysAdmin Casts 🌟</a> </li>
+<li><a href="https://devopslibrary.com/">DEVOPS Library 🌟</a></li>
+</ul>
+<h3 id="devops-blogs">DevOps Blogs<a class="headerlink" href="#devops-blogs" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://devstack.in/">DevStack</a> All about DevOps</li>
+</ul>
+<h3 id="devops-demos">DevOps Demos<a class="headerlink" href="#devops-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://redhatgov.io">RedHatGov.io</a> is an open source collection of workshop materials that cover various topics relating to Red Hat&rsquo;s product portfolio.</li>
+<li><a href="https://github.com/wardviaene">github.com/wardviaene (kubernetes, terraform, ansible, docker, etc) 🌟</a><ul>
+<li><a href="https://github.com/wardviaene/jenkins-course">wardviaene/jenkins-course</a></li>
+<li><a href="https://github.com/wardviaene/kubernetes-course">wardviaene/kubernetes-course</a></li>
+</ul>
+</li>
+<li><a href="https://www.thoughtworks.com/es/insights/blog/modernizing-your-build-pipelines">thoughtworks.com: Modernizing your build pipelines with <strong>Concourse CI</strong> 🌟</a><ul>
+<li><a href="https://github.com/sirech/example-concourse-pipeline">github.com/sirech/example-concourse-pipeline</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/yankils/Simple-DevOps-Project">yankils/Simple-DevOps-Project</a> </li>
+<li><a href="#spring-petclinic-sample-application">Spring PetClinic Sample Application</a> By following this repository you can able to setup a DevOps CI/CD Pipeline using: git, Jenkins, Maven, Ansible, Docker &amp; Kubernetes</li>
+</ul>
+<h4 id="ansible-and-ansible-tower">Ansible and Ansible Tower<a class="headerlink" href="#ansible-and-ansible-tower" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://ansible.github.io/workshops/demos/">ansible.github.io/workshops/demos : Red Hat Ansible Automation Platform Workshops</a></li>
+<li><a href="https://github.com/network-automation/tower_workshop">Red Hat Ansible Tower - Workshop and Demo</a></li>
+</ul>
+<h3 id="kubernetes-demos">Kubernetes Demos<a class="headerlink" href="#kubernetes-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="http://kubernetesbyexample.com/">kubernetesbyexample.com 🌟</a></li>
+<li><a href="https://github.com/eon01/kubernetes-workshop">github.com/eon01/kubernetes-workshop</a></li>
+<li><a href="https://github.com/wardviaene/kubernetes-course">wardviaene/kubernetes-course</a></li>
+<li><a href="https://github.com/kubernetes-course/container_workshops">github.com/kubernetes-course/container_workshops</a></li>
+<li><a href="https://github.com/mautic/docker-mautic">Mautic</a></li>
+<li><a href="https://codeburst.io/getting-started-with-kubernetes-deploy-a-docker-container-with-kubernetes-in-5-minutes-eb4be0e96370">codeburst.io: getting started with kubernetes, deploy a docker container in 5 minutes</a></li>
+<li><a href="https://www.theguild.nl/k8s-workshop-in-a-box/">Kubernetes workshop in a box</a><ul>
+<li><a href="https://github.com/kabisa/k8s-workshop-in-a-box">GitHub: K8s workshop in a box</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="istio">Istio<a class="headerlink" href="#istio" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/redhat-developer-demos/istio-tutorial">github: redhat-developer-demos Istio Tutorial for Java Microservices</a></li>
+</ul>
+<h4 id="amazon-eks-deploy-example-microservices-on-eks">Amazon EKS. Deploy example microservices on EKS<a class="headerlink" href="#amazon-eks-deploy-example-microservices-on-eks" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://eksworkshop.com/">eksworkshop.com</a></li>
+<li><a href="https://eksworkshop.com/x-ray/microservices/">eksworkshop.com/x-ray/microservices</a></li>
+<li><a href="https://eksworkshop.com/scaling/deploy_ca/">eksworkshop.com: Configure Cluster Autoscaler (CA)</a></li>
+<li><a href="https://aws.amazon.com/getting-started/projects/deploy-kubernetes-app-amazon-eks/">aws.amazon.com: Deploy a kubernetes application</a></li>
+<li><a href="https://aws.amazon.com/blogs/opensource/git-push-deploy-app-eks-gitkube/">aws blogs: Git Push to Deploy Your App on EKS</a></li>
+<li><a href="https://medium.com/faun/create-your-first-application-on-aws-eks-kubernetes-cluster-874ee9681293">medium: create your first application on aws eks kubernetes</a></li>
+<li><a href="https://dzone.com/articles/deploying-a-kubernetes-cluster-with-amazon-eks">dzone: deploying a kubernetes cluster with amazon eks 🌟</a></li>
+</ul>
+<h3 id="red-hat-demo-central">Red Hat Demo Central<a class="headerlink" href="#red-hat-demo-central" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://gitlab.com/redhatdemocentral">gitlab.com/redhatdemocentral 🌟</a></li>
+<li><a href="https://redhatdemocentral.gitlab.io">redhatdemocentral.gitlab.io</a></li>
+</ul>
+<h4 id="cloud-native-development-architectural-diagrams-demos">Cloud Native Development Architectural Diagrams Demos<a class="headerlink" href="#cloud-native-development-architectural-diagrams-demos" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Cloud-native development is an approach to building and running applications to fully exploit the advantages of the cloud computing model (i.e. responsive, elastic and resilient applications).</li>
+<li><a href="https://redhatdemocentral.gitlab.io/portfolio-architecture-workshops/#/">Portfolio Architecture</a> Workshops for creating impactful architectural diagrams. This workshop will teach you how to use, design, and create architectural diagrams based on the <strong>draw.io</strong> tooling and Red Hat Portfolio Architecture design elelements. You&rsquo;ll leverage existing portfolio architecture diagrams as starting points.<ul>
+<li><a href="https://redhatdemocentral.gitlab.io/portfolio-architecture-tooling/">redhatdemocentral.gitlab.io/portfolio-architecture-tooling</a></li>
+<li><a href="https://gitlab.com/redhatdemocentral/portfolio-architecture-examples">gitlab.com: Project Examples</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="openshift-demos">OpenShift Demos<a class="headerlink" href="#openshift-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://developers.redhat.com/courses/openshift/">developers.redhat.com: Developing on OpenShift (katacoda interactive learning) 🌟</a> Learn how to access an OpenShift cluster, manage apps with the odo command-line tool, then try image and source-based deployment techniques.</li>
+<li><a href="https://github.com/OpenShiftDemos">github.com/OpenShiftDemos 🌟</a></li>
+<li><a href="https://hub.docker.com/r/openshiftdemos/">DockerHub OpenShift Demos</a></li>
+<li><a href="https://github.com/redhat-developer-demos">Red Hat Tutorials &amp; Examples: github.com/redhat-developer-demos 🌟</a></li>
+<li><a href="http://redhatgov.io">redhatgov.io</a> RedHatGov.io is an open source collection of workshop materials that cover various topics relating to Red Hat&rsquo;s product portfolio.</li>
+<li><a href="https://blog.openshift.com/aws-and-red-hat-quickstart-workshop/">blog.openshift.com: OCP multi-node deployment on <strong>AWS</strong> using CloudFormation and Ansible (quickstart workshop)</a></li>
+<li><a href="https://dzone.com/articles/deploying-docker-images-to-openshift">Deploying Docker Images to OpenShift</a> We take a look at how to deploy a Docker image from DockerHub into RedHat&rsquo;s OpenShift environment, bringing added functionality along the way.</li>
+<li><a href="https://github.com/OpenShiftDemos/sonarqube-openshift-docker">SonarQube: An OpenShift-focused Docker build of Sonarqube</a></li>
+<li><a href="https://blog.dbi-services.com/deploying-postgresql-in-minishiftopenshift/">Deploying PostgreSQL in MiniShift/OpenShift 3</a></li>
+<li><a href="http://www.mastertheboss.com/soa-cloud/openshift/clustering-wildfly-on-openshift-using-wildfly-operator">Clustering WildFly on Openshift</a></li>
+<li><a href="http://www.mastertheboss.com/soa-cloud/openshift/java-ee-example-application-on-openshift">Java EE example on Openshift</a></li>
+<li><a href="http://www.mastertheboss.com/soa-cloud/openshift/running-microprofile-applications-on-openshift">Microprofile example on Openshift</a></li>
+<li><a href="http://www.mastertheboss.com/soa-cloud/openshift/using-wildfly-on-openshift">Deploying WildFly apps on Openshift</a></li>
+<li><a href="http://www.mastertheboss.com/soa-cloud/openshift/thorntail-on-openshift">Running Thorntail apps on Openshift</a></li>
+<li><a href="http://www.mastertheboss.com/jboss-frameworks/spring/deploy-your-springboot-applications-on-openshift">Running Spring Boot applications on Openshift</a></li>
+<li><a href="https://github.com/openshiftdemos">github.com/openshiftdemos 🌟</a></li>
+<li><a href="https://github.com/openshift-labs">github.com/openshift-labs 🌟</a> </li>
+</ul>
+<h4 id="ibm-cloud-pak-playbooks">IBM Cloud Pak Playbooks<a class="headerlink" href="#ibm-cloud-pak-playbooks" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://cloudpak8s.io/apps/cp4a_overview/">IBM Cloud Pak Playbook</a></li>
+</ul>
+<h4 id="knative">Knative<a class="headerlink" href="#knative" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/redhat-developer-demos/knative-tutorial">knative-tutorial</a> A pratical guide to get started with knative. Knative concepts are explained simple and easy way with lots of demos and exercises.</li>
+</ul>
+<h4 id="openshift-pipelines-workshop-tekton">OpenShift Pipelines Workshop (Tekton)<a class="headerlink" href="#openshift-pipelines-workshop-tekton" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://redhat-developer-demos.github.io/openshift-pipelines-workshop/">openshift-pipelines-workshop</a> Workshop to demonstrate OpenShift Pipelines (featuring Tekton)</li>
+<li><a href="https://developers.redhat.com/blog/2020/05/26/build-a-go-application-using-openshift-pipelines/">Build a Go application using OpenShift Pipelines</a></li>
+<li><a href="https://github.com/openshift/pipelines-catalog">OpenShift Pipelines Catalog</a></li>
+</ul>
+<h3 id="jenkins-demos">Jenkins Demos<a class="headerlink" href="#jenkins-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://kublr.com/blog/cicd-pipeline-with-jenkins-nexus-kubernetes/">kublr.com: cicd pipeline with jenkins nexus kubernetes</a></li>
+<li><a href="https://bitbucket.org/blog/setting-up-a-ci-cd-pipeline-with-spring-mvc-jenkins-and-kubernetes-on-aws">bitbucket.org: setting up a cicd pipeline with spring mvc and kubernetes on aws</a></li>
+<li>Medium.com - Simple Spring Boot microservice deployed in Kubernetes using Docker and Nexus 🌟:<ul>
+<li><a href="https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-1-b581e3ca8916">Part 1</a></li>
+<li><a href="https://medium.com/@simionrazvan/simple-spring-boot-microservice-deployed-in-kubernetes-using-docker-and-nexus-part-2-25dc2a3982cf">Part 2</a></li>
+</ul>
+</li>
+</ul>
+<h4 id="jenkins-declarative-pipelines-with-openshift">Jenkins Declarative Pipelines with OpenShift<a class="headerlink" href="#jenkins-declarative-pipelines-with-openshift" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/openshift/origin/tree/master/examples/jenkins/pipeline">github.com/openshift: Using Jenkins Declarative Pipelines with OpenShift 🌟</a></li>
+<li><a href="https://github.com/gnunn1/openshift-basic-pipeline">github.com/gnunn1/openshift-basic-pipeline</a></li>
+<li><a href="https://github.com/deweya/OpenShift-Jenkins-Lab">github.com/deweya/OpenShift-Jenkins-Lab</a></li>
+<li><a href="https://github.com/marcredhat/crcdemos">Red Hat CodeReady Containers (Minishift equivalent for OpenShift 4.2 or newer) - step-by-step demo guides</a></li>
+<li><a href="https://github.com/redhat-gpte-devopsautomation/ocp4_app_deploy_homework_grading">Grading Pipeline for OpenShift 4 Advanced Application Deployment Homework Assignment</a></li>
+<li><a href="https://github.com/gnunn1/openshift-basic-pipeline">github - Demostration of a basic OpenShift CI/CD pipeline deploying an application in Development then Test</a></li>
+</ul>
+<h4 id="openshift-pipelines-with-s2i-and-jenkins-blue-ocean">OpenShift Pipelines with S2i and Jenkins Blue Ocean<a class="headerlink" href="#openshift-pipelines-with-s2i-and-jenkins-blue-ocean" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://www.openshift.com/blog/openshift-pipelines-jenkins-blue-ocean">OpenShift Pipelines with Jenkins Blue Ocean 🌟</a></li>
+<li><a href="https://github.com/siamaksade/jenkins-blueocean">github.com/siamaksade/jenkins-blueocean</a> Jenkins Blue Ocean for OpenShift Jenkins S2I</li>
+</ul>
+<h4 id="jenkins-configuration-as-code-on-kubernetes">Jenkins Configuration as Code on Kubernetes<a class="headerlink" href="#jenkins-configuration-as-code-on-kubernetes" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://github.com/figaw/configuration-as-code-jenkins-k8s">Configuration as Code of Jenkins (for Kubernetes) 🌟🌟</a></li>
+<li><a href="https://github.com/redhatspain/jenkins-CasC-kubernetes-demo">Jenkins Configuration as Code on Kubernetes 🌟</a> A Codecentric/Jenkins Helm 3 Sample Chart on Digital Ocean Kubernetes with Spring Petclinic Demo Pipeline</li>
+</ul>
+<h4 id="from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs">From Jenkins Freestyle jobs to Pipeline, with JobDSL. Seed jobs<a class="headerlink" href="#from-jenkins-freestyle-jobs-to-pipeline-with-jobdsl-seed-jobs" title="Permanent link">&para;</a></h4>
+<ul>
+<li><a href="https://www.meetup.com/Jenkins-online-meetup/events/270600737/">Meetup event: From Freestyle jobs to Pipeline, with JobDSL</a><ul>
+<li>Manually managing Jenkins jobs is painful. Jenkins Pipeline exists, but how do you get started and why should you bother in the first place? Journey with Nicolaj, as he talks about the pains of managing a manually configured job in Jenkins; converts a Freestyle Job to JobDSL, instantly; introduces mechanisms for adding the jobs to Jenkins, as code; and ultimately converts the job to a Jenkins Pipeline!</li>
+<li>Just like last time, in the talk “Configuration as Code of Jenkins (for Kubernetes),” you’ll see plenty of live demos and get to take home all the code and examples afterwards. Use it as the starting point for taking advantage of the Configuration as Code (CasC) that everyone is talking about, and hopefully it will save you a lot of headache in the future!</li>
+<li>Agenda:<ul>
+<li>Manual Freestyle jobs, and why they hurt us</li>
+<li>Introduction to JobDSL and adding JobDSL-jobs to Jenkins</li>
+<li>From Freestyle Jobs to JobDSL, the beginning of our CasC adventure</li>
+<li>From JobDSL to Pipeline, all the fun of CasC; with even more resilience!</li>
+</ul>
+</li>
+<li>Nicolaj Græsholt is a Continuous Delivery and DevOps Consultant and Trainer from Eficode Praqma. He helps organizations with all things CI/CD, Artifact Management, Git, Docker and Kubernetes, and he’s a Certified Kubernetes Administrator of CNCF.</li>
+<li><a href="https://github.com/figaw/freestyle-to-pipeline-jenkins/blob/master/from-freestyle-jobs-to-pipeline-with-jobdsl.pdf">Slides 🌟🌟🌟</a></li>
+<li><a href="https://github.com/figaw/freestyle-to-pipeline-jenkins">Demo repository 🌟🌟🌟</a></li>
+</ul>
+</li>
+<li>Links of interest provided in the event:<ul>
+<li><a href="https://www.jenkins.io/doc/book/managing/cli/">Jenkins CLI</a></li>
+<li><a href="https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/docs/seed-jobs.md">How to create initial &ldquo;seed&rdquo; job</a></li>
+<li><a href="https://github.com/jenkinsci/jenkinsfile-runner-test-framework">Jenkinsfile Runner Test Framework</a></li>
+<li><a href="https://github.com/jenkinsci/JenkinsPipelineUnit">Jenkins Pipeline Unit testing framework</a></li>
+<li><a href="https://github.com/jenkinsci/plugin-installation-manager-tool">Plugin Installation Manager Tool</a></li>
+<li><a href="https://github.com/jenkinsci/custom-war-packager">Jenkins Custom WAR Packager</a></li>
+<li>Jenkins Configuration as Code:<ul>
+<li><a href="https://github.com/figaw/configuration-as-code-jenkins-k8s">Configuration as Code of Jenkins (for Kubernetes) 🌟</a></li>
+<li><a href="https://www.jenkins.io/events/online-hackfest/2020-uiux/">JEP-224: System Read permission: Improve experience of Jenkins Configuration-as-Code users</a> It improves the modifying Web UI configuration controls to support the read-only mode.</li>
+</ul>
+</li>
+<li>Plugins:<ul>
+<li><a href="https://plugins.jenkins.io/plugin-usage-plugin/">Plugin Usage</a> This plugin gives you the possibility to analyze the usage of your installed plugins.</li>
+<li><a href="https://plugins.jenkins.io/pipeline-as-yaml/">Pipeline as YAML (Incubated) 🌟</a></li>
+<li><a href="https://github.com/jenkinsci/job-dsl-plugin#documentation">Jenkins Job DSL Plugin</a> A Groovy DSL for Jenkins Jobs - Sweeeeet!</li>
+<li><a href="https://plugins.jenkins.io/leastload/">Least Load</a> This plugin overrides the default Load Balancer behavior and assigns jobs to nodes with the least load</li>
+<li><a href="https://plugins.jenkins.io/declarative-pipeline-migration-assistant/">Declarative Pipeline Migration Assistant</a></li>
+</ul>
+</li>
+<li>Jenkins Job DSL:<ul>
+<li><a href="https://jenkinsci.github.io/job-dsl-plugin/">Jenkins Job DSL API 🌟</a><ul>
+<li><a href="https://jenkinsci.github.io/job-dsl-plugin/#path/mavenJob">mavenJob</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/polarpoint-io/groovy-jenkins-pipelines/blob/master/jobs/parameterisedPipelines.groovy">Example of a pipeline with parameters</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/jenkins-infra/pipeline-library">Pipeline Global Library for ci.jenkins.io</a> Collection of custom steps and variables for our Jenkins instance(s)</li>
+</ul>
+</li>
+</ul>
+<p><center>
+<iframe src="https://www.youtube.com/embed/uhD49XXiRqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center></p>
+<h4 id="jenkins-scripts">Jenkins Scripts<a class="headerlink" href="#jenkins-scripts" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>cleanup.Jenkinsfile</strong>: Jenkinsfile with Declarative Pipeline Multiline sh that cleanups old builds. All the Stages are now visually monitored. It is triggered every saturday night and ends with jenkins restart. These Multi-line bash commands make easier to read Jenkins Projects.</li>
+<li><strong>daily_restart.Jenkinsfile</strong>: A script that automatically triggers a daily restart of Jenkins due to performance issues (Jenkins is a Java application). Jenkins with Declarative Pipeline multiline sh that restarts Jenkins every night except on Saturday nights (when cleanup.Jenkinsfile is triggered). </li>
+<li><strong>confluence6-docker-build.Jenkinsfile</strong>: Declarative Jenkinsfile for building and uploading a docker image to Openshift-DEV, Dockerhub and Openshift-PROD (Stages are disabled via Conditional Build Steps). Tip: A Docker Plugin for Jenkins can easily replace this Jenkinsfile. </li>
+</ul>
+<p>Grab them from here: <a href="https://github.com/redhatspain/awesome-kubernetes/tree/master/scripts">awesome-kubernetes/scripts</a></p>
+<h3 id="nexus3-on-kubernetes">Nexus3 on Kubernetes<a class="headerlink" href="#nexus3-on-kubernetes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/redhatspain/nexus3-helm-chart">Proof of Concept: Nexus3 Chart configuration on Kubernetes</a> A choerodon/nexus3 Helm 3 Sample Chart on Digital Ocean Kubernetes</li>
+</ul>
+<h3 id="spring-petclinic-sample-application">Spring PetClinic Sample Application<a class="headerlink" href="#spring-petclinic-sample-application" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://spring-petclinic.github.io">spring-petclinic.github.io</a><ul>
+<li><a href="https://spring-petclinic.github.io/docs/resources.html">spring-petclinic.github.io Docs</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/spring-projects/spring-petclinic">github.com/spring-projects/spring-petclinic</a><ul>
+<li><a href="https://gitlab.beuth-hochschule.de/s70178/petclinic-ansible-jenkins-ci-cd">gitlab.beuth-hochschule.de</a></li>
+<li><a href="https://gitlab.comquent.de/petclinic/spring-petclinic-microservices">gitlab.comquent.de: Microservices branch</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/deors/deors-demos-petclinic/blob/master/Jenkinsfile">deors/deors-demos-petclinic jenkinsfile</a></li>
+<li><a href="https://www.liatrio.com/blog/building-with-docker-using-jenkins-pipelines">liatrio.com: building with docker using jenkins pipelines</a></li>
+<li><a href="https://stackoverflow.com/questions/52337851/how-to-define-buildconfig-object-with-jenkins-and-openshift">stackoverflow: How to define BuildConfig object with Jenkins and openshift
+</a></li>
+<li><a href="https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces">cloudogu.com: CD with Jenkins, Nexus and cloudogu</a></li>
+<li><a href="https://www.experfy.com/training/courses/effective-jenkins-continuous-delivery-and-continuous-integration">experfy.com e-learning: Effective Jenkins - Continuous Delivery and Continuous Integration</a></li>
+<li>Modular Pipeline Library: 4. Petclinic Pipeline 🌟 <ul>
+<li><a href="https://github.com/griddynamics/mpl">griddynamics/mpl</a></li>
+<li><a href="https://blog.griddynamics.com/developing-a-modular-pipeline-library-to-improve-devops-collaboration/">blog.griddynamics.com: Developing a modular pipeline library to improve DevOps collaboration</a></li>
+<li><a href="https://www.youtube.com/watch?v=GLtvxY1S3Aw">youtube: Modular Pipeline Library: 4. Petclinic Pipeline</a></li>
+</ul>
+</li>
+<li>PetClinic on Kubernetes:<ul>
+<li><a href="https://github.com/spring-petclinic/spring-petclinic-kubernetes">github.com/spring-petclinic/spring-petclinic-kubernetes 🌟</a><ul>
+<li>While waiting for a working version, you could check <a href="https://github.com/odedia/spring-petclinic-microservices">this fork</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/odedia/spring-petclinic-microservices">Distributed version of Spring Petclinic built with Spring Cloud 🌟</a></li>
+<li><a href="https://github.com/paulczar/k8s-spring-petclinic">github.com/paulczar/k8s-spring-petclinic</a></li>
+<li><a href="https://tech.paulcz.net/blog/spring-into-kubernetes-part-1/">tech.paulcz.net/blog/spring-into-kubernetes-part-1</a></li>
+<li><a href="https://github.com/kohsuke/petclinic/blob/master/Jenkinsfile">github.com/kohsuke/petclinic Jenkinsfile</a></li>
+<li><a href="https://pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images/">pushbuildtestdeploy.com/jenkins-on-kubernetes-building-docker-images 🌟</a></li>
+</ul>
+</li>
+<li>PetClinic Docker images:<ul>
+<li><a href="https://hub.docker.com/r/ibuchh/petclinic-spinnaker-jenkins">ref 1</a></li>
+<li><a href="https://hub.docker.com/r/sarjunkumar24391/petclinic">ref 2</a></li>
+<li><a href="https://hub.docker.com/r/bmoussaud/petclinic">ref 3</a></li>
+<li><a href="https://hub.docker.com/r/alwin2/petclinic-customers-service">ref 4</a></li>
+<li><a href="https://hub.docker.com/r/arey/springboot-petclinic/">ref 5 arey/springboot-petclinic</a></li>
+<li><a href="https://hub.docker.com/r/anthonydahanne/spring-petclinic">ref 6</a></li>
+<li><a href="https://hub.docker.com/r/jbrisbin/spring-petclinic/">ref 7</a></li>
+<li><a href="https://github.com/spring-projects/spring-petclinic/issues/339">ref 8</a></li>
+<li><a href="https://github.com/trisberg/spring-petclinic/tree/kubernetes">ref 9 - I have a branch that adds Docker, Kubernetes and Knative into the mix - planning on submitting a PR at some point</a></li>
+</ul>
+</li>
+<li><a href="https://che.openshift.io/dashboard/#/getstarted">OpenShift.io Samples 🌟🌟</a><ul>
+<li><a href="https://github.com/che-samples">github.com/che-samples</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="aws-demos">AWS Demos<a class="headerlink" href="#aws-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/miztiik/AWS-Demos">github.com/miztiik/AWS-Demos</a></li>
+<li><a href="https://github.com/aws-samples">github.com/aws-samples</a></li>
+<li><a href="https://github.com/aws-samples/aws-training-demo">github.com/aws-samples/aws-training-demo</a></li>
+</ul>
+<h3 id="azure-devops-demos">Azure DevOps Demos<a class="headerlink" href="#azure-devops-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://azuredevopsdemogenerator.azurewebsites.net/">Azure DevOps Demo Generator</a></li>
+<li><a href="https://devblogs.microsoft.com/devops/azure-devops-demo-generator-is-now-open-source/">Azure DevOps Demo Generator is now open source</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/devops/demo-gen/use-demo-generator-v2?view=azure-devops">Get started creating and populating demo Azure DevOps Services projects</a></li>
+</ul>
+<h3 id="google-devops-demos">Google DevOps Demos<a class="headerlink" href="#google-devops-demos" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/TerraHubCorp/terraform-google-automation-demo">Terraform Automation Demo using Google Cloud Provider</a></li>
+</ul>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../gitops/" title="GitOps" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z" /></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                GitOps
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../noops/" title="NoOps" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                NoOps
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z" /></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            2020 <a href="https://twitter.com/RedHatSpain">Red Hat Spain (unofficial linkedin group)</a>, <a href="https://redhatspain.github.io/about/">about</a>.
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.36cbf620.min.js"></script>
+      <script src="../assets/javascripts/bundle.00c583dd.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: [],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.7f7c8775.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="../javascript/extra.js"></script>
+      
+    
+  </body>
+</html>
